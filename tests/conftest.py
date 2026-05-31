@@ -29,6 +29,7 @@ async def test_session(test_engine):
     factory = async_sessionmaker(
         bind=test_engine,
         expire_on_commit=False,
+        autoflush=False,
     )
     async with factory() as session:
         async with session.begin():

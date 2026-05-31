@@ -86,10 +86,12 @@ class TaskService:
         if task is None:
             raise TaskNotFoundError(f"Task {task_id} not found")
 
+        # ``exclude_unset=True`` ensures only fields the client supplied
+        # are in the dict.  ``description=None`` is valid (clears the field);
+        # ``title/priority/status=None`` is rejected by the schema validator.
         update_data = dto.model_dump(exclude_unset=True)
         for field, value in update_data.items():
-            if value is not None:
-                setattr(task, field, value)
+            setattr(task, field, value)
 
         task.updated_at = datetime.now(timezone.utc)
         updated = await self._repo.update(task)

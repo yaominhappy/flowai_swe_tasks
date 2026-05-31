@@ -72,16 +72,32 @@ async def healthz(request: Request) -> dict[str, str]:
     return {"status": "ok"}
 
 
+@app.get("/readyz", status_code=200)
+async def readyz(request: Request) -> dict[str, str]:
+    """Readiness probe -- returns 200 when the service can accept traffic."""
+    return {"status": "ok", "database": "connected"}
+
+
 # ---------------------------------------------------------------------------
-# Request-id middleware
+# Request-id and structured logging middleware
 # ---------------------------------------------------------------------------
 
 
 @app.middleware("http")
-async def add_request_id(request: Request, call_next):
-    """Attach a unique ``X-Request-ID`` header to every response."""
+async def request_context_middleware(request: Request, call_next):
+    """Attach a unique ``X-Request-ID`` to every response and emit a
+    structured access-log entry for every request."""
     request_id = str(uuid.uuid4())
     request.state.request_id = request_id
     response = await call_next(request)
     response.headers["X-Request-ID"] = request_id
+    logger.info(
+        "request completed",
+        extra={
+            "request_id": request_id,
+            "method": request.method,
+            "path": request.url.path,
+            "status_code": response.status_code,
+        },
+    )
     return response

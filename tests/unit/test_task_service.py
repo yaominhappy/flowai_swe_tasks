@@ -143,6 +143,32 @@ class TestUpdate:
         assert task.title == "New"
         repo.update.assert_awaited_once_with(task)
 
+    async def test_update_clears_description(
+        self, svc: TaskService, repo: AsyncMock
+    ) -> None:
+        """Explicit ``description=null`` should clear the description field."""
+        task = _mock_task(title="Has desc", description="some text")
+        repo.get_by_id.return_value = task
+        repo.update.return_value = task
+        dto = TaskUpdate(description=None)
+        await svc.update(TEST_UUID, dto)
+        assert task.description is None
+        repo.update.assert_awaited_once_with(task)
+
+    async def test_update_preserves_updated_at(
+        self, svc: TaskService, repo: AsyncMock
+    ) -> None:
+        """On every update, ``updated_at`` is refreshed to now."""
+        old_updated = NOW
+        task = _mock_task(title="Old", updated_at=old_updated)
+        repo.get_by_id.return_value = task
+        repo.update.return_value = task
+        dto = TaskUpdate(title="Changed")
+        await svc.update(TEST_UUID, dto)
+        # The service should have set updated_at to a more recent value
+        assert task.updated_at != old_updated
+        repo.update.assert_awaited_once_with(task)
+
 
 # ===========================================================================
 # Delete
