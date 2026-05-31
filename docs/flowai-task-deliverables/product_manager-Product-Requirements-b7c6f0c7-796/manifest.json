@@ -1,0 +1,33 @@
+{
+  "agent_id": "a6d4710a-d961-4928-b075-2ce94fb594b1",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "product_requirements_document",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 11783,
+      "title": "Product Requirements",
+      "workspace_path": "docs/flowai-task-deliverables/product_manager-Product-Requirements-b7c6f0c7-796/002-product_requirements_document-Product-Requirements.md"
+    }
+  ],
+  "materialized_at": "2026-05-31T13:33:58.733806+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 39706,
+    "workspace_path": "docs/flowai-task-deliverables/product_manager-Product-Requirements-b7c6f0c7-796/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "product_manager",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "Product requirements defined for 'Build FastAPI Task Manager API' with 3 feature requirements and 3 QA focus areas.",
+  "task_id": "b7c6f0c7-7965-4b81-806f-27829b9209ed",
+  "task_title": "Product Requirements"
+}
