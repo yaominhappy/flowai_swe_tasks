@@ -1,0 +1,33 @@
+{
+  "agent_id": "4be296da-b752-44f0-bb55-b04560450981",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "validation_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 259,
+      "title": "engineering_quality validation report",
+      "workspace_path": "docs/flowai-task-deliverables/sdet-Engineering-Quality-Validation-d328ae95-416/002-validation_report-engineering_quality-validation-report.md"
+    }
+  ],
+  "materialized_at": "2026-05-31T13:59:24.778854+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 43570,
+    "workspace_path": "docs/flowai-task-deliverables/sdet-Engineering-Quality-Validation-d328ae95-416/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "sdet",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "engineering_quality validation completed with action pass for 'Engineering Quality Validation'.",
+  "task_id": "d328ae95-4167-4792-9dc8-92ba5378279a",
+  "task_title": "Engineering Quality Validation"
+}
