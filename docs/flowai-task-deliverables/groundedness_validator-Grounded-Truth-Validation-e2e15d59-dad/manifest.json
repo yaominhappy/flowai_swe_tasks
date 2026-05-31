@@ -1,0 +1,33 @@
+{
+  "agent_id": "303529dd-78a5-4a35-8ef6-6d8316ebd0af",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "validation_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 3019,
+      "title": "Grounded truth validation report",
+      "workspace_path": "docs/flowai-task-deliverables/groundedness_validator-Grounded-Truth-Validation-e2e15d59-dad/002-validation_report-Grounded-truth-validation-report.md"
+    }
+  ],
+  "materialized_at": "2026-05-31T13:59:53.929187+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 41068,
+    "workspace_path": "docs/flowai-task-deliverables/groundedness_validator-Grounded-Truth-Validation-e2e15d59-dad/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "groundedness_validator",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "grounded_truth validation completed with action pass for 'Grounded Truth Validation'.",
+  "task_id": "e2e15d59-dad3-4ade-9e5f-813291a87fe2",
+  "task_title": "Grounded Truth Validation"
+}
