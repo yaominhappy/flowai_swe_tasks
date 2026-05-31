@@ -1,0 +1,199 @@
+{
+  "agent_id": "c5ab5128-5588-4eef-a33d-377053b07df4",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "implementation_plan",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 5043,
+      "title": "Implementation Plan",
+      "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Implementation-bb131c1d-e87/002-implementation_plan-Implementation-Plan.md"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-dockerfile",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Dockerfile"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "application/toml",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "pyproject.toml"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/plain",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "requirements.txt"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "app/database.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "app/main.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "app/api/tasks.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "app/models/task.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "app/repositories/task_repository.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "app/schemas/task.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "app/services/task_service.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "tests/conftest.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "tests/test_health.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "tests/e2e/conftest.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "tests/e2e/test_tasks_api.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "tests/integration/test_database.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "tests/integration/test_task_repository.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "tests/unit/test_task_schemas.py"
+    },
+    {
+      "artifact_type": "generated_code",
+      "materialized": false,
+      "media_type": "text/x-python",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "tests/unit/test_task_service.py"
+    },
+    {
+      "artifact_type": "tool_execution_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 294,
+      "title": "Tool Execution Report 1",
+      "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Implementation-bb131c1d-e87/021-tool_execution_report-Tool-Execution-Report-1.md"
+    },
+    {
+      "artifact_type": "tool_execution_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 2319,
+      "title": "Tool Execution Report 2",
+      "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Implementation-bb131c1d-e87/022-tool_execution_report-Tool-Execution-Report-2.md"
+    },
+    {
+      "artifact_type": "tool_execution_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 1517,
+      "title": "Tool Execution Report 3",
+      "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Implementation-bb131c1d-e87/023-tool_execution_report-Tool-Execution-Report-3.md"
+    },
+    {
+      "artifact_type": "tool_execution_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 2940,
+      "title": "Tool Execution Report 4",
+      "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Implementation-bb131c1d-e87/024-tool_execution_report-Tool-Execution-Report-4.md"
+    },
+    {
+      "artifact_type": "tool_execution_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 1089,
+      "title": "Tool Execution Report 5",
+      "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Implementation-bb131c1d-e87/025-tool_execution_report-Tool-Execution-Report-5.md"
+    }
+  ],
+  "materialized_at": "2026-05-31T13:48:23.915479+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 67759,
+    "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Implementation-bb131c1d-e87/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "full_stack_software_engineer",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "Implementation plan prepared for Programming language: python 3.12, Frameworks: fastapi, Database: sqlite with 9 delivery steps and 4 testing layers.",
+  "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+  "task_title": "Implementation"
+}

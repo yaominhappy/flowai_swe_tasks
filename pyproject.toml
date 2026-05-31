@@ -9,3 +9,6 @@ requires-python = ">=3.12"
 
 [tool.setuptools.packages.find]
 include = ["app*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
