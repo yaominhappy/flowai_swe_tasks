@@ -1,0 +1,33 @@
+{
+  "agent_id": "27b3eadb-96a0-4604-9cc0-78cac01c29a7",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "architecture_document",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 13809,
+      "title": "Architecture Design",
+      "workspace_path": "docs/flowai-task-deliverables/solution_architect-Architecture-Design-5a81e451-d18/002-architecture_document-Architecture-Design.md"
+    }
+  ],
+  "materialized_at": "2026-05-31T13:35:33.296022+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 38858,
+    "workspace_path": "docs/flowai-task-deliverables/solution_architect-Architecture-Design-5a81e451-d18/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "solution_architect",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "Architecture defined for 'Build FastAPI Task Manager API' with 3 primary interfaces, 3 operational constraints, and 1 product-requirements handoff inputs.",
+  "task_id": "5a81e451-d186-4f95-93ec-ad96b0dffbc5",
+  "task_title": "Architecture Design"
+}
