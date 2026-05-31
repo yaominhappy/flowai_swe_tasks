@@ -1,0 +1,638 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "70f88c55-935d-4b6b-b9b1-0d283d58de9f",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "9702c169f757005d49c7eb71069e4fde896fc478f3a088835a13153709df82fc",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://70f88c55-935d-4b6b-b9b1-0d283d58de9f",
+      "task_id": "b7c6f0c7-7965-4b81-806f-27829b9209ed",
+      "task_title": "Product Requirements",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "f2b581e1-a777-40f0-8f05-d7207ae18d50",
+      "artifact_type": "product_requirements_document",
+      "content_hash": "929f51823d4f03e3bcecb45426d27b4b9a0e7a85f94fe6ceb990141ce8052519",
+      "materialized": true,
+      "size_bytes": 11783,
+      "storage_uri": "artifact://f2b581e1-a777-40f0-8f05-d7207ae18d50",
+      "task_id": "b7c6f0c7-7965-4b81-806f-27829b9209ed",
+      "task_title": "Product Requirements",
+      "title": "Product Requirements",
+      "workspace_path": "docs/flowai-delivery/artifacts/002-product_requirements_document-Product-Requirements-f2b581e1.md"
+    },
+    {
+      "artifact_id": "7fbfb73a-964a-49a4-b5ee-c1310441ea31",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "9702c169f757005d49c7eb71069e4fde896fc478f3a088835a13153709df82fc",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://7fbfb73a-964a-49a4-b5ee-c1310441ea31",
+      "task_id": "5a81e451-d186-4f95-93ec-ad96b0dffbc5",
+      "task_title": "Architecture Design",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "9c0b319d-e3e4-4392-aba5-973217ff19ab",
+      "artifact_type": "architecture_document",
+      "content_hash": "90413a598bc2a978db135247d24b687fb83650a9c315cd8c0dd634599cdf7f2e",
+      "materialized": true,
+      "size_bytes": 13809,
+      "storage_uri": "artifact://9c0b319d-e3e4-4392-aba5-973217ff19ab",
+      "task_id": "5a81e451-d186-4f95-93ec-ad96b0dffbc5",
+      "task_title": "Architecture Design",
+      "title": "Architecture Design",
+      "workspace_path": "docs/flowai-delivery/artifacts/004-architecture_document-Architecture-Design-9c0b319d.md"
+    },
+    {
+      "artifact_id": "e900eab3-1b47-4a57-9d9a-82df9b6e2076",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "9702c169f757005d49c7eb71069e4fde896fc478f3a088835a13153709df82fc",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://e900eab3-1b47-4a57-9d9a-82df9b6e2076",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "8fb418e1-2e6b-4e78-bcd7-f7d661acb636",
+      "artifact_type": "implementation_plan",
+      "content_hash": "5d44d3874fcfa4ac485d00706894c3f6d88344206b0067065feaf1e7ecf6ae58",
+      "materialized": true,
+      "size_bytes": 5043,
+      "storage_uri": "artifact://8fb418e1-2e6b-4e78-bcd7-f7d661acb636",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "Implementation Plan",
+      "workspace_path": "docs/flowai-delivery/artifacts/006-implementation_plan-Implementation-Plan-8fb418e1.md"
+    },
+    {
+      "artifact_id": "1356f59a-fb4f-49f7-9588-493d4c7b6a7f",
+      "artifact_type": "generated_code",
+      "content_hash": "c67a864613a7813671995a8887222ce95ca4b9cea529e4a2c16782b93be7d9e8",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://1356f59a-fb4f-49f7-9588-493d4c7b6a7f",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "Dockerfile"
+    },
+    {
+      "artifact_id": "0f46fd94-2489-41aa-a263-5ed0f06d6188",
+      "artifact_type": "generated_code",
+      "content_hash": "7717861a4ab761cad39ecb297705e6d9da72c6a20e274b1ee96e29c7f6ed0fab",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://0f46fd94-2489-41aa-a263-5ed0f06d6188",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "pyproject.toml"
+    },
+    {
+      "artifact_id": "0a741a88-99d4-40e8-8da9-444b48896a2a",
+      "artifact_type": "generated_code",
+      "content_hash": "8ec010622f0bf0bc3809213d6b24accf3d90a3fd2f35872d9cfd4ebcfdf6c2a8",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://0a741a88-99d4-40e8-8da9-444b48896a2a",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "app/database.py"
+    },
+    {
+      "artifact_id": "9c5eeec0-9bad-4600-8f9e-1df26950ae70",
+      "artifact_type": "generated_code",
+      "content_hash": "606265af546daa3a66d4d85e0be2a969c8d8cffe6120e1fd172c77e306ce7ce8",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://9c5eeec0-9bad-4600-8f9e-1df26950ae70",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "requirements.txt"
+    },
+    {
+      "artifact_id": "20608594-0adb-49e5-aeb5-6d60a1c558d2",
+      "artifact_type": "generated_code",
+      "content_hash": "0e1e44804c2eb0a877c1ce50850b6f083e2752e3ac48327e072a1c6743a2b07c",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://20608594-0adb-49e5-aeb5-6d60a1c558d2",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "app/main.py"
+    },
+    {
+      "artifact_id": "1294e1cb-2a13-4db5-958d-d12a94894a32",
+      "artifact_type": "generated_code",
+      "content_hash": "2bccd312dde1e5da7558cef38a0af427ed694d64329375b97be9f8a995376d8c",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://1294e1cb-2a13-4db5-958d-d12a94894a32",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "app/api/tasks.py"
+    },
+    {
+      "artifact_id": "a1a4f599-f601-4783-a31e-2498eb2eca6d",
+      "artifact_type": "generated_code",
+      "content_hash": "83a771d689ac8d6ad39c6a9a7de7f99707f69f91d528d0b3063e5fefbe880d77",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://a1a4f599-f601-4783-a31e-2498eb2eca6d",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "app/models/task.py"
+    },
+    {
+      "artifact_id": "7b15e0eb-d29e-4e4a-a6e2-81ed67ffc96f",
+      "artifact_type": "generated_code",
+      "content_hash": "9d02f59f66f2b1bb6d40ba921be388f749f60f38439b627298f5f36f76b4041a",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://7b15e0eb-d29e-4e4a-a6e2-81ed67ffc96f",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "app/repositories/task_repository.py"
+    },
+    {
+      "artifact_id": "82c61cc6-ff6a-488b-bb13-a323e6456326",
+      "artifact_type": "generated_code",
+      "content_hash": "a3655e64eaf6a38a09719c9de2aa4eaaac599f4e772d55f7f1884b9a7aae59df",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://82c61cc6-ff6a-488b-bb13-a323e6456326",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "app/schemas/task.py"
+    },
+    {
+      "artifact_id": "32dd2cba-74e2-406c-85c2-21e21d00740f",
+      "artifact_type": "generated_code",
+      "content_hash": "4bea15d33da8c468ec222d5dfc7980c9d0252ea30c739041297402e6114ca963",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://32dd2cba-74e2-406c-85c2-21e21d00740f",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "app/services/task_service.py"
+    },
+    {
+      "artifact_id": "8792a1b5-50ea-458c-8ec6-1560c0ec055d",
+      "artifact_type": "generated_code",
+      "content_hash": "b116bcc69a998cff15a32f7180ef2da1a71107190a2b77fe415ca13c9f7730a7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://8792a1b5-50ea-458c-8ec6-1560c0ec055d",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "tests/conftest.py"
+    },
+    {
+      "artifact_id": "3287d295-a1e3-4a31-8fe2-6a354c97bea9",
+      "artifact_type": "generated_code",
+      "content_hash": "3529342812f4c134cf61f54ddde5d5634166d21733c5acfdaf461334854c9f72",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://3287d295-a1e3-4a31-8fe2-6a354c97bea9",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "tests/e2e/conftest.py"
+    },
+    {
+      "artifact_id": "42a1b192-7f97-49eb-a387-ec72d52b2e15",
+      "artifact_type": "generated_code",
+      "content_hash": "3d8625ae9d854074c62d3b1d919e9879fe789fcce7cf5214e67ab3e8e3a222e6",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://42a1b192-7f97-49eb-a387-ec72d52b2e15",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "tests/test_health.py"
+    },
+    {
+      "artifact_id": "a0cff10c-bbd4-4403-9351-ee095f6386c4",
+      "artifact_type": "generated_code",
+      "content_hash": "f4f580bff0ba43537b98edc0a57efec5c7165a3ef6c6283f1a62e125061676a6",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://a0cff10c-bbd4-4403-9351-ee095f6386c4",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "tests/e2e/test_tasks_api.py"
+    },
+    {
+      "artifact_id": "31ea4843-177a-4c0e-b66b-c5c5c2d81279",
+      "artifact_type": "generated_code",
+      "content_hash": "5fefd37ce3743189a1df745edceff03ba3b8b805372359f003e9558047adfa51",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://31ea4843-177a-4c0e-b66b-c5c5c2d81279",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "tests/integration/test_database.py"
+    },
+    {
+      "artifact_id": "08e627ee-b7fa-4082-b7e6-3c85eaac3d0c",
+      "artifact_type": "generated_code",
+      "content_hash": "f549cdfc7a4b45895289301e78f658ac3ed663679e2da9e189606ab6eece2bd9",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://08e627ee-b7fa-4082-b7e6-3c85eaac3d0c",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "tests/integration/test_task_repository.py"
+    },
+    {
+      "artifact_id": "de5f1ad2-03ad-45a9-b32f-cdfdb0c88d92",
+      "artifact_type": "generated_code",
+      "content_hash": "29677b536e430693aa519b44d65c5c03b4dd797bc4c6e89490ce55e544743d00",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://de5f1ad2-03ad-45a9-b32f-cdfdb0c88d92",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "tests/unit/test_task_schemas.py"
+    },
+    {
+      "artifact_id": "99621655-2307-4167-a26c-1713a887a411",
+      "artifact_type": "generated_code",
+      "content_hash": "8e8524806391f505aa3f7a53c45e6c5d502b984722ee9de57708cc7120c73431",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://99621655-2307-4167-a26c-1713a887a411",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "tests/unit/test_task_service.py"
+    },
+    {
+      "artifact_id": "9d7b665a-ef65-47bf-a908-cb74d1605b04",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "cc8efb0b3d95af0d747a09bc6d892b5a8395e5728bb108819efa283c2fb15bc7",
+      "materialized": true,
+      "size_bytes": 294,
+      "storage_uri": "artifact://9d7b665a-ef65-47bf-a908-cb74d1605b04",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "Tool Execution Report 1",
+      "workspace_path": "docs/flowai-delivery/artifacts/025-tool_execution_report-Tool-Execution-Report-1-9d7b665a.md"
+    },
+    {
+      "artifact_id": "afa0e5a0-5b9c-4faa-80d2-f55d59103507",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "6e546676bdad81cab86798010d9abacec7524b1587e4206b86ef2fa2e9fbac40",
+      "materialized": true,
+      "size_bytes": 2319,
+      "storage_uri": "artifact://afa0e5a0-5b9c-4faa-80d2-f55d59103507",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "Tool Execution Report 2",
+      "workspace_path": "docs/flowai-delivery/artifacts/026-tool_execution_report-Tool-Execution-Report-2-afa0e5a0.md"
+    },
+    {
+      "artifact_id": "199bd583-2d05-4ea1-bb59-ed765d7a1496",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "b11a5ff598a0e30e3e8f6d73fb915427c77dc3a0ba60c118ba2622b064772a0e",
+      "materialized": true,
+      "size_bytes": 1517,
+      "storage_uri": "artifact://199bd583-2d05-4ea1-bb59-ed765d7a1496",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "Tool Execution Report 3",
+      "workspace_path": "docs/flowai-delivery/artifacts/027-tool_execution_report-Tool-Execution-Report-3-199bd583.md"
+    },
+    {
+      "artifact_id": "699c4ea7-f7ac-43c2-a28f-a4eceecd1be5",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "2284c8895ecae16cbe2301794ff1495d5eba36a833eea369489a4eaadac794a1",
+      "materialized": true,
+      "size_bytes": 2940,
+      "storage_uri": "artifact://699c4ea7-f7ac-43c2-a28f-a4eceecd1be5",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "Tool Execution Report 4",
+      "workspace_path": "docs/flowai-delivery/artifacts/028-tool_execution_report-Tool-Execution-Report-4-699c4ea7.md"
+    },
+    {
+      "artifact_id": "16c4135a-f81c-486b-8c12-607e039c34ef",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "e4f936327dc9f064cb40bf45a0059fe6c68efbe8ca0b1830826a0e4a00218880",
+      "materialized": true,
+      "size_bytes": 1089,
+      "storage_uri": "artifact://16c4135a-f81c-486b-8c12-607e039c34ef",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_title": "Implementation",
+      "title": "Tool Execution Report 5",
+      "workspace_path": "docs/flowai-delivery/artifacts/029-tool_execution_report-Tool-Execution-Report-5-16c4135a.md"
+    },
+    {
+      "artifact_id": "5983320f-9dd2-4352-8a11-480e6288889e",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "9702c169f757005d49c7eb71069e4fde896fc478f3a088835a13153709df82fc",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://5983320f-9dd2-4352-8a11-480e6288889e",
+      "task_id": "7d911719-0a4a-412b-b9b9-d50028622dbc",
+      "task_title": "Peer Review",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "11337b6d-e831-4ab5-9816-7d2fd442b642",
+      "artifact_type": "peer_review_report",
+      "content_hash": "4ba046e079a8b2433b3eeda5f7a668b1a405b8b1022f7502c178f5c1833d25fb",
+      "materialized": true,
+      "size_bytes": 431,
+      "storage_uri": "artifact://11337b6d-e831-4ab5-9816-7d2fd442b642",
+      "task_id": "7d911719-0a4a-412b-b9b9-d50028622dbc",
+      "task_title": "Peer Review",
+      "title": "Peer Review Report",
+      "workspace_path": "docs/flowai-delivery/artifacts/031-peer_review_report-Peer-Review-Report-11337b6d.md"
+    },
+    {
+      "artifact_id": "e0a1b452-fefe-4824-96a4-f3910370d89f",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "9702c169f757005d49c7eb71069e4fde896fc478f3a088835a13153709df82fc",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://e0a1b452-fefe-4824-96a4-f3910370d89f",
+      "task_id": "3fc6ced9-ca8b-4b64-8e57-fe67d471c801",
+      "task_title": "Structural Validation",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "ca42ab44-f909-4f47-a24c-10327be86f09",
+      "artifact_type": "validation_report",
+      "content_hash": "619b1cbf028daddcd08f05ae94409a3181da57f3792e61288b57aba2031e69ae",
+      "materialized": true,
+      "size_bytes": 16431,
+      "storage_uri": "artifact://ca42ab44-f909-4f47-a24c-10327be86f09",
+      "task_id": "3fc6ced9-ca8b-4b64-8e57-fe67d471c801",
+      "task_title": "Structural Validation",
+      "title": "structural validation report",
+      "workspace_path": "docs/flowai-delivery/artifacts/033-validation_report-structural-validation-report-ca42ab44.md"
+    },
+    {
+      "artifact_id": "76c3ad29-6033-4aa3-bb3d-ef776863ca0d",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "9702c169f757005d49c7eb71069e4fde896fc478f3a088835a13153709df82fc",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://76c3ad29-6033-4aa3-bb3d-ef776863ca0d",
+      "task_id": "d328ae95-4167-4792-9dc8-92ba5378279a",
+      "task_title": "Engineering Quality Validation",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "10dc83b6-b728-4207-b452-a5560bfcb945",
+      "artifact_type": "validation_report",
+      "content_hash": "beb7cefe8ed34d879783783d5a4d4adf42e0af7d020e2249cab0912fca16bfad",
+      "materialized": true,
+      "size_bytes": 259,
+      "storage_uri": "artifact://10dc83b6-b728-4207-b452-a5560bfcb945",
+      "task_id": "d328ae95-4167-4792-9dc8-92ba5378279a",
+      "task_title": "Engineering Quality Validation",
+      "title": "engineering_quality validation report",
+      "workspace_path": "docs/flowai-delivery/artifacts/035-validation_report-engineering_quality-validation-report-10dc83b6.md"
+    },
+    {
+      "artifact_id": "df4d15ec-436e-4407-be8a-5385fc81110f",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "9702c169f757005d49c7eb71069e4fde896fc478f3a088835a13153709df82fc",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://df4d15ec-436e-4407-be8a-5385fc81110f",
+      "task_id": "e2e15d59-dad3-4ade-9e5f-813291a87fe2",
+      "task_title": "Grounded Truth Validation",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "bf277654-f712-4ae6-8d3b-3e0147911261",
+      "artifact_type": "validation_report",
+      "content_hash": "2e13cb50969b30a3d2183d7ce60bd8b3f0825a1fd6414524892dd183c1e45a4d",
+      "materialized": true,
+      "size_bytes": 3019,
+      "storage_uri": "artifact://bf277654-f712-4ae6-8d3b-3e0147911261",
+      "task_id": "e2e15d59-dad3-4ade-9e5f-813291a87fe2",
+      "task_title": "Grounded Truth Validation",
+      "title": "Grounded truth validation report",
+      "workspace_path": "docs/flowai-delivery/artifacts/037-validation_report-Grounded-truth-validation-report-bf277654.md"
+    },
+    {
+      "artifact_id": "3baa0dcd-c802-40a4-8802-c72b99a3b935",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "9702c169f757005d49c7eb71069e4fde896fc478f3a088835a13153709df82fc",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://3baa0dcd-c802-40a4-8802-c72b99a3b935",
+      "task_id": "cb98795a-4e34-4645-b176-2cf1ebabf4b7",
+      "task_title": "Final Delivery Gate",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "533a5576-cf78-4b03-a4b6-e581a3ea22dc",
+      "artifact_type": "validation_report",
+      "content_hash": "07d2bc5ea5b0d2e1731ed1734ede156066da2b49265dc6cccfbae8574491127b",
+      "materialized": true,
+      "size_bytes": 4239,
+      "storage_uri": "artifact://533a5576-cf78-4b03-a4b6-e581a3ea22dc",
+      "task_id": "cb98795a-4e34-4645-b176-2cf1ebabf4b7",
+      "task_title": "Final Delivery Gate",
+      "title": "delivery_readiness validation report",
+      "workspace_path": "docs/flowai-delivery/artifacts/039-validation_report-delivery_readiness-validation-report-533a5576.md"
+    }
+  ],
+  "delivery_workspace_path": "docs/flowai-delivery",
+  "generated_at": "2026-05-31T14:00:46.407963+00:00",
+  "git_commits": [
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-06-01T00:00:43+10:00",
+      "hash": "311a24168bc7b5304c80a31f7ffe26c826709bab",
+      "subject": "feat(sdet): Final Delivery Gate"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-31T23:59:53+10:00",
+      "hash": "a2ad4a0ccfb6d60796d494571287cda09edf3128",
+      "subject": "feat(groundedness_validator): Grounded Truth Validation"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-31T23:59:24+10:00",
+      "hash": "684154d4b5e62011d58e18737fcc955d87592342",
+      "subject": "feat(sdet): Engineering Quality Validation"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-31T23:55:53+10:00",
+      "hash": "9b6f6f40977ee1e08979630986de0ffc5a532940",
+      "subject": "feat(sdet): Structural Validation"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-31T23:52:20+10:00",
+      "hash": "acc5acfb62c8560bae62513a474fcfb34eb7f01a",
+      "subject": "feat(full_stack_software_engineer): Peer Review"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-31T23:48:23+10:00",
+      "hash": "b77e789c34b0b0d8813c2f013d725b7b177cebc1",
+      "subject": "feat(full_stack_software_engineer): Implementation"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-31T23:35:33+10:00",
+      "hash": "e2d5238001dfb6452e783be357b3c54921e700a5",
+      "subject": "feat(solution_architect): Architecture Design"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-31T23:33:58+10:00",
+      "hash": "e581d6bcbd9a035849dbf946e041b0f7addd0086",
+      "subject": "feat(product_manager): Product Requirements"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-31T23:32:26+10:00",
+      "hash": "4a4d738f9fb66ab7611ffc77174edf3cc6e34dde",
+      "subject": "chore: initialise shared run workspace"
+    }
+  ],
+  "goal_id": "f739625c-6e9d-49bd-a716-0e618c918444",
+  "goal_title": "Build FastAPI Task Manager API",
+  "schema_version": 1,
+  "tasks": [
+    {
+      "artifact_ids": [
+        "70f88c55-935d-4b6b-b9b1-0d283d58de9f",
+        "f2b581e1-a777-40f0-8f05-d7207ae18d50"
+      ],
+      "parent_task_id": null,
+      "required_role": "product_manager",
+      "status": "completed",
+      "summary": "Product requirements defined for 'Build FastAPI Task Manager API' with 3 feature requirements and 3 QA focus areas.",
+      "task_id": "b7c6f0c7-7965-4b81-806f-27829b9209ed",
+      "task_type": "product_requirements",
+      "title": "Product Requirements"
+    },
+    {
+      "artifact_ids": [
+        "7fbfb73a-964a-49a4-b5ee-c1310441ea31",
+        "9c0b319d-e3e4-4392-aba5-973217ff19ab"
+      ],
+      "parent_task_id": null,
+      "required_role": "solution_architect",
+      "status": "completed",
+      "summary": "Architecture defined for 'Build FastAPI Task Manager API' with 3 primary interfaces, 3 operational constraints, and 1 product-requirements handoff inputs.",
+      "task_id": "5a81e451-d186-4f95-93ec-ad96b0dffbc5",
+      "task_type": "architecture_design",
+      "title": "Architecture Design"
+    },
+    {
+      "artifact_ids": [
+        "e900eab3-1b47-4a57-9d9a-82df9b6e2076",
+        "8fb418e1-2e6b-4e78-bcd7-f7d661acb636",
+        "1356f59a-fb4f-49f7-9588-493d4c7b6a7f",
+        "0f46fd94-2489-41aa-a263-5ed0f06d6188",
+        "0a741a88-99d4-40e8-8da9-444b48896a2a",
+        "9c5eeec0-9bad-4600-8f9e-1df26950ae70",
+        "20608594-0adb-49e5-aeb5-6d60a1c558d2",
+        "1294e1cb-2a13-4db5-958d-d12a94894a32",
+        "a1a4f599-f601-4783-a31e-2498eb2eca6d",
+        "7b15e0eb-d29e-4e4a-a6e2-81ed67ffc96f",
+        "82c61cc6-ff6a-488b-bb13-a323e6456326",
+        "32dd2cba-74e2-406c-85c2-21e21d00740f",
+        "8792a1b5-50ea-458c-8ec6-1560c0ec055d",
+        "3287d295-a1e3-4a31-8fe2-6a354c97bea9",
+        "42a1b192-7f97-49eb-a387-ec72d52b2e15",
+        "a0cff10c-bbd4-4403-9351-ee095f6386c4",
+        "31ea4843-177a-4c0e-b66b-c5c5c2d81279",
+        "08e627ee-b7fa-4082-b7e6-3c85eaac3d0c",
+        "de5f1ad2-03ad-45a9-b32f-cdfdb0c88d92",
+        "99621655-2307-4167-a26c-1713a887a411",
+        "9d7b665a-ef65-47bf-a908-cb74d1605b04",
+        "afa0e5a0-5b9c-4faa-80d2-f55d59103507",
+        "199bd583-2d05-4ea1-bb59-ed765d7a1496",
+        "699c4ea7-f7ac-43c2-a28f-a4eceecd1be5",
+        "16c4135a-f81c-486b-8c12-607e039c34ef"
+      ],
+      "parent_task_id": null,
+      "required_role": "full_stack_software_engineer",
+      "status": "completed",
+      "summary": "Implementation plan prepared for Programming language: python 3.12, Frameworks: fastapi, Database: sqlite with 9 delivery steps and 4 testing layers.",
+      "task_id": "bb131c1d-e877-435f-9ffa-25a83e28ee12",
+      "task_type": "implementation",
+      "title": "Implementation"
+    },
+    {
+      "artifact_ids": [
+        "5983320f-9dd2-4352-8a11-480e6288889e",
+        "11337b6d-e831-4ab5-9816-7d2fd442b642"
+      ],
+      "parent_task_id": null,
+      "required_role": "full_stack_software_engineer",
+      "status": "completed",
+      "summary": "Peer review completed with status approved for 'Build FastAPI Task Manager API'.",
+      "task_id": "7d911719-0a4a-412b-b9b9-d50028622dbc",
+      "task_type": "peer_review",
+      "title": "Peer Review"
+    },
+    {
+      "artifact_ids": [
+        "e0a1b452-fefe-4824-96a4-f3910370d89f",
+        "ca42ab44-f909-4f47-a24c-10327be86f09"
+      ],
+      "parent_task_id": null,
+      "required_role": "sdet",
+      "status": "completed",
+      "summary": "structural validation completed with action pass for 'Structural Validation'.",
+      "task_id": "3fc6ced9-ca8b-4b64-8e57-fe67d471c801",
+      "task_type": "structural_validation",
+      "title": "Structural Validation"
+    },
+    {
+      "artifact_ids": [
+        "76c3ad29-6033-4aa3-bb3d-ef776863ca0d",
+        "10dc83b6-b728-4207-b452-a5560bfcb945"
+      ],
+      "parent_task_id": null,
+      "required_role": "sdet",
+      "status": "completed",
+      "summary": "engineering_quality validation completed with action pass for 'Engineering Quality Validation'.",
+      "task_id": "d328ae95-4167-4792-9dc8-92ba5378279a",
+      "task_type": "engineering_validation",
+      "title": "Engineering Quality Validation"
+    },
+    {
+      "artifact_ids": [
+        "df4d15ec-436e-4407-be8a-5385fc81110f",
+        "bf277654-f712-4ae6-8d3b-3e0147911261"
+      ],
+      "parent_task_id": null,
+      "required_role": "groundedness_validator",
+      "status": "completed",
+      "summary": "grounded_truth validation completed with action pass for 'Grounded Truth Validation'.",
+      "task_id": "e2e15d59-dad3-4ade-9e5f-813291a87fe2",
+      "task_type": "grounded_validation",
+      "title": "Grounded Truth Validation"
+    },
+    {
+      "artifact_ids": [
+        "3baa0dcd-c802-40a4-8802-c72b99a3b935",
+        "533a5576-cf78-4b03-a4b6-e581a3ea22dc"
+      ],
+      "parent_task_id": null,
+      "required_role": "sdet",
+      "status": "completed",
+      "summary": "delivery_readiness validation completed with action pass for 'Final Delivery Gate'.",
+      "task_id": "cb98795a-4e34-4645-b176-2cf1ebabf4b7",
+      "task_type": "delivery_gate",
+      "title": "Final Delivery Gate"
+    }
+  ],
+  "tenant_id": "1574a745-bfb5-4cbd-9ba7-647f54b7e888",
+  "workflow_run_id": "d08c7212-9d83-4237-b743-9effc5568ecb"
+}
