@@ -1,0 +1,33 @@
+{
+  "agent_id": "a6d4710a-d961-4928-b075-2ce94fb594b1",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "product_requirements_document",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 9511,
+      "title": "Product Requirements",
+      "workspace_path": "docs/flowai-task-deliverables/product_manager-Product-Requirements-9005e52b-70b/002-product_requirements_document-Product-Requirements.md"
+    }
+  ],
+  "materialized_at": "2026-05-31T22:22:07.484093+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 39666,
+    "workspace_path": "docs/flowai-task-deliverables/product_manager-Product-Requirements-9005e52b-70b/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "product_manager",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "Product requirements defined for 'Review code in the FastAPI Task Manager service and fix bugs using production grade solution' with 3 feature requirements and 3 QA focus areas.",
+  "task_id": "9005e52b-70b1-408c-ad92-66e2710bbad1",
+  "task_title": "Product Requirements"
+}
