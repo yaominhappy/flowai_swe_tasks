@@ -1,0 +1,33 @@
+{
+  "agent_id": "57f7e361-1cfe-41e9-ad2e-69865661d868",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "peer_review_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 431,
+      "title": "Peer Review Report",
+      "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Peer-Review-7d911719-0a4/002-peer_review_report-Peer-Review-Report.md"
+    }
+  ],
+  "materialized_at": "2026-05-31T13:52:20.477716+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 43480,
+    "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Peer-Review-7d911719-0a4/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "full_stack_software_engineer",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "Peer review completed with status approved for 'Build FastAPI Task Manager API'.",
+  "task_id": "7d911719-0a4a-412b-b9b9-d50028622dbc",
+  "task_title": "Peer Review"
+}
