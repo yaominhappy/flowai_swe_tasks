@@ -428,3 +428,135 @@ class TestListTasks:
     ) -> None:
         resp = await client.get("/api/v1/tasks?offset=-1")
         assert resp.status_code == 422
+
+
+# ===========================================================================
+# FR‑3: Input validation hardening — null rejection and clearing
+# ===========================================================================
+
+
+class TestUpdateNullHandling:
+    """FR‑3.1: Update with null title/priority/status is rejected (422).
+    Update with null description clears the field (200).
+    """
+
+    async def test_update_with_null_title_rejected(
+        self, client: AsyncClient
+    ) -> None:
+        """Explicit ``title=null`` in update returns 422."""
+        create_resp = await client.post(
+            "/api/v1/tasks", json={"title": _random_title()}
+        )
+        task_id = create_resp.json()["id"]
+
+        resp = await client.put(
+            f"/api/v1/tasks/{task_id}",
+            json={"title": None},
+        )
+        assert resp.status_code == 422
+
+    async def test_update_with_null_priority_rejected(
+        self, client: AsyncClient
+    ) -> None:
+        """Explicit ``priority=null`` in update returns 422."""
+        create_resp = await client.post(
+            "/api/v1/tasks", json={"title": _random_title()}
+        )
+        task_id = create_resp.json()["id"]
+
+        resp = await client.put(
+            f"/api/v1/tasks/{task_id}",
+            json={"priority": None},
+        )
+        assert resp.status_code == 422
+
+    async def test_update_with_null_status_rejected(
+        self, client: AsyncClient
+    ) -> None:
+        """Explicit ``status=null`` in update returns 422."""
+        create_resp = await client.post(
+            "/api/v1/tasks", json={"title": _random_title()}
+        )
+        task_id = create_resp.json()["id"]
+
+        resp = await client.put(
+            f"/api/v1/tasks/{task_id}",
+            json={"status": None},
+        )
+        assert resp.status_code == 422
+
+    async def test_update_clears_description(
+        self, client: AsyncClient
+    ) -> None:
+        """Setting ``description=null`` clears a previously-set description."""
+        title = _random_title()
+        create_resp = await client.post(
+            "/api/v1/tasks",
+            json={"title": title, "description": "initial description"},
+        )
+        assert create_resp.json()["description"] == "initial description"
+        task_id = create_resp.json()["id"]
+
+        resp = await client.put(
+            f"/api/v1/tasks/{task_id}",
+            json={"description": None},
+        )
+        assert resp.status_code == 200
+        assert resp.json()["description"] is None
+
+        # Verify persistence via GET
+        get_resp = await client.get(f"/api/v1/tasks/{task_id}")
+        assert get_resp.json()["description"] is None
+
+
+# ===========================================================================
+# Readiness endpoint
+# ===========================================================================
+
+
+class TestReadiness:
+    """FR‑4: /readyz endpoint returns 200 with database status."""
+
+    async def test_readyz_returns_ok(self, client: AsyncClient) -> None:
+        resp = await client.get("/readyz")
+        assert resp.status_code == 200
+        body = resp.json()
+        assert body["status"] == "ok"
+        assert body["database"] == "connected"
+
+
+# ===========================================================================
+# Request‑ID middleware
+# ===========================================================================
+
+
+class TestRequestId:
+    """All responses carry an ``X-Request-ID`` header."""
+
+    async def test_healthz_request_id(self, client: AsyncClient) -> None:
+        resp = await client.get("/healthz")
+        assert "x-request-id" in resp.headers
+
+    async def test_readyz_request_id(self, client: AsyncClient) -> None:
+        resp = await client.get("/readyz")
+        assert "x-request-id" in resp.headers
+
+    async def test_list_request_id(self, client: AsyncClient) -> None:
+        resp = await client.get("/api/v1/tasks")
+        assert "x-request-id" in resp.headers
+
+    async def test_get_request_id(self, client: AsyncClient) -> None:
+        create_resp = await client.post(
+            "/api/v1/tasks", json={"title": _random_title()}
+        )
+        task_id = create_resp.json()["id"]
+        resp = await client.get(f"/api/v1/tasks/{task_id}")
+        assert "x-request-id" in resp.headers
+
+    async def test_delete_request_id(self, client: AsyncClient) -> None:
+        create_resp = await client.post(
+            "/api/v1/tasks", json={"title": _random_title()}
+        )
+        task_id = create_resp.json()["id"]
+        resp = await client.delete(f"/api/v1/tasks/{task_id}")
+        assert "x-request-id" in resp.headers

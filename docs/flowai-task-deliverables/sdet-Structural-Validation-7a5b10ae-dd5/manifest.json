@@ -1,0 +1,33 @@
+{
+  "agent_id": "4be296da-b752-44f0-bb55-b04560450981",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "validation_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 22027,
+      "title": "structural validation report",
+      "workspace_path": "docs/flowai-task-deliverables/sdet-Structural-Validation-7a5b10ae-dd5/002-validation_report-structural-validation-report.md"
+    }
+  ],
+  "materialized_at": "2026-05-31T22:39:13.385902+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 47157,
+    "workspace_path": "docs/flowai-task-deliverables/sdet-Structural-Validation-7a5b10ae-dd5/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "sdet",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "structural validation completed with action pass for 'Structural Validation'.",
+  "task_id": "7a5b10ae-dd5e-4853-b731-c2f1fa053471",
+  "task_title": "Structural Validation"
+}

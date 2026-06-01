@@ -120,6 +120,45 @@ class TestTaskUpdate:
         with pytest.raises(ValidationError):
             TaskUpdate(title="")
 
+    def test_null_title_rejected(self) -> None:
+        """Explicit ``title=null`` is rejected by the field validator."""
+        with pytest.raises(ValidationError) as exc_info:
+            TaskUpdate(title=None)  # type: ignore[arg-type]
+        errors = exc_info.value.errors()
+        assert any(
+            "title" in e["loc"] and "null" in str(e["msg"]).lower()
+            for e in errors
+        )
+
+    def test_null_priority_rejected(self) -> None:
+        """Explicit ``priority=null`` is rejected."""
+        with pytest.raises(ValidationError) as exc_info:
+            TaskUpdate(priority=None)  # type: ignore[arg-type]
+        errors = exc_info.value.errors()
+        assert any(
+            "priority" in e["loc"] and "null" in str(e["msg"]).lower()
+            for e in errors
+        )
+
+    def test_null_status_rejected(self) -> None:
+        """Explicit ``status=null`` is rejected."""
+        with pytest.raises(ValidationError) as exc_info:
+            TaskUpdate(status=None)  # type: ignore[arg-type]
+        errors = exc_info.value.errors()
+        assert any(
+            "status" in e["loc"] and "null" in str(e["msg"]).lower()
+            for e in errors
+        )
+
+    def test_null_description_accepted(self) -> None:
+        """``description=null`` is accepted to allow clearing the field."""
+        dto = TaskUpdate(description=None)
+        # ``model_dump(exclude_unset=True)`` will include ``description``
+        # because it was explicitly set (to None).
+        dumped = dto.model_dump(exclude_unset=True)
+        assert "description" in dumped
+        assert dumped["description"] is None
+
 
 # ===========================================================================
 # TaskResponse

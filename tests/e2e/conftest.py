@@ -25,6 +25,7 @@ async def _override_db():
     session_factory = async_sessionmaker(
         bind=engine,
         expire_on_commit=False,
+        autoflush=False,
     )
 
     async def _override_get_session() -> AsyncGenerator:

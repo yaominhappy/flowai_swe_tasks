@@ -46,6 +46,7 @@ def _get_session_factory() -> async_sessionmaker:
         _session_factory = async_sessionmaker(
             bind=engine,
             expire_on_commit=False,
+            autoflush=False,
         )
     return _session_factory
 

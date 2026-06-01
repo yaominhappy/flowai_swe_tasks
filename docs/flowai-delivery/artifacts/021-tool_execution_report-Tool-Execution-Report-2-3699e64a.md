@@ -3,7 +3,7 @@
 - Command: `python3 -m pip install -r requirements.txt`
 - Status: `completed`
 - Exit code: `0`
-- Log path: `/Users/minyao/.flowai/sandboxes/1574a745-bfb5-4cbd-9ba7-647f54b7e888/d08c7212-9d83-4237-b743-9effc5568ecb/_run_shared/_run_shared/logs/tool_2.log`
+- Log path: `/Users/minyao/.flowai/sandboxes/1574a745-bfb5-4cbd-9ba7-647f54b7e888/b3e51a83-b16a-4976-896d-78dfae03af3a/_run_shared/_run_shared/logs/tool_2.log`
 
 ## Stdout
 Requirement already satisfied: fastapi<1.0,>=0.116 in /opt/homebrew/lib/python3.12/site-packages (from -r requirements.txt (line 1)) (0.136.1)

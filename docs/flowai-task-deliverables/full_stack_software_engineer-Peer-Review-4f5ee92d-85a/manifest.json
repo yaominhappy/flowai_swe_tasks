@@ -1,0 +1,33 @@
+{
+  "agent_id": "57f7e361-1cfe-41e9-ad2e-69865661d868",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "peer_review_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 14568,
+      "title": "Peer Review Report",
+      "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Peer-Review-4f5ee92d-85a/002-peer_review_report-Peer-Review-Report.md"
+    }
+  ],
+  "materialized_at": "2026-05-31T22:35:59.872175+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 59448,
+    "workspace_path": "docs/flowai-task-deliverables/full_stack_software_engineer-Peer-Review-4f5ee92d-85a/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "full_stack_software_engineer",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "Peer review completed with status approved for 'Peer Review'.",
+  "task_id": "4f5ee92d-85a7-49a8-a1d1-2964e4a797d1",
+  "task_title": "Peer Review"
+}

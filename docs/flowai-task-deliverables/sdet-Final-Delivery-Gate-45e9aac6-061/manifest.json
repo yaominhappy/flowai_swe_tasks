@@ -1,0 +1,33 @@
+{
+  "agent_id": "4be296da-b752-44f0-bb55-b04560450981",
+  "artifacts": [
+    {
+      "artifact_type": "sandbox_manifest",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_type": "validation_report",
+      "materialized": true,
+      "media_type": "text/markdown",
+      "size_bytes": 6010,
+      "title": "delivery_readiness validation report",
+      "workspace_path": "docs/flowai-task-deliverables/sdet-Final-Delivery-Gate-45e9aac6-061/002-validation_report-delivery_readiness-validation-report.md"
+    }
+  ],
+  "materialized_at": "2026-06-01T00:01:42.515097+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 41068,
+    "workspace_path": "docs/flowai-task-deliverables/sdet-Final-Delivery-Gate-45e9aac6-061/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "sdet",
+  "schema_version": 1,
+  "subtask_sequence": null,
+  "summary": "delivery_readiness validation completed with action pass for 'Final Delivery Gate'.",
+  "task_id": "45e9aac6-0618-44a6-98dd-52db788200da",
+  "task_title": "Final Delivery Gate"
+}
