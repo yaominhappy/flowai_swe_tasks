@@ -1,0 +1,334 @@
+{
+  "agent_id": "4be296da-b752-44f0-bb55-b04560450981",
+  "output_payload": {
+    "agentic_execution": {
+      "attempt_number": 2,
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "capacity_active_counts": {
+            "executor_active": 1,
+            "tenant_active": 1,
+            "worker_active": 1
+          },
+          "capacity_lease": {
+            "claimed_at": "2026-05-31T22:39:14.363392+00:00",
+            "executor_key": "claude_sdk",
+            "expires_at": "2026-05-31T23:11:14.363392+00:00",
+            "heartbeat_at": "2026-05-31T22:39:14.363392+00:00",
+            "lease_id": "fa6db0c4-6c25-4067-b349-61753f0832ee",
+            "task_id": "f5fc4109-187b-4f97-9bce-77281bcf4d6a",
+            "tenant_id": "1574a745-bfb5-4cbd-9ba7-647f54b7e888",
+            "worker_id": "flowai-worker-local-MinMacBookPro25.local-5056-1b2a3914",
+            "workflow_run_id": "b3e51a83-b16a-4976-896d-78dfae03af3a"
+          },
+          "capacity_limits": {
+            "global_limit": null,
+            "tenant_limit": null,
+            "worker_limit": 1
+          },
+          "classification": "transient_runtime_failure",
+          "cost_usd": null,
+          "error": "Claude Agent SDK execution timed out after 3600s.",
+          "error_subtype": null,
+          "executor_key": "claude_sdk",
+          "implementation": "sdk",
+          "provider": "anthropic",
+          "session_id": null,
+          "success": false,
+          "total_turns": null
+        },
+        {
+          "attempt_number": 2,
+          "capacity_active_counts": {
+            "executor_active": 1,
+            "tenant_active": 1,
+            "worker_active": 1
+          },
+          "capacity_lease": {
+            "claimed_at": "2026-05-31T23:56:39.186907+00:00",
+            "executor_key": "claude_cli",
+            "expires_at": "2026-06-01T00:28:39.186907+00:00",
+            "heartbeat_at": "2026-05-31T23:56:39.186907+00:00",
+            "lease_id": "3eea6b27-0963-4a3e-b5d0-f7eb095c8418",
+            "task_id": "f5fc4109-187b-4f97-9bce-77281bcf4d6a",
+            "tenant_id": "1574a745-bfb5-4cbd-9ba7-647f54b7e888",
+            "worker_id": "flowai-worker-local-MinMacBookPro25.local-5056-1b2a3914",
+            "workflow_run_id": "b3e51a83-b16a-4976-896d-78dfae03af3a"
+          },
+          "capacity_limits": {
+            "global_limit": null,
+            "tenant_limit": null,
+            "worker_limit": 1
+          },
+          "classification": "success",
+          "cost_usd": null,
+          "error": null,
+          "error_subtype": "success",
+          "executor_key": "claude_cli",
+          "implementation": "cli",
+          "provider": "anthropic",
+          "session_id": "ba8e8bc5-c6f1-4067-9ef4-b2a2fedb1de8",
+          "success": true,
+          "total_turns": 38
+        }
+      ],
+      "capacity_active_counts": {
+        "executor_active": 1,
+        "tenant_active": 1,
+        "worker_active": 1
+      },
+      "capacity_lease": {
+        "claimed_at": "2026-05-31T23:56:39.186907+00:00",
+        "executor_key": "claude_cli",
+        "expires_at": "2026-06-01T00:28:39.186907+00:00",
+        "heartbeat_at": "2026-05-31T23:56:39.186907+00:00",
+        "lease_id": "3eea6b27-0963-4a3e-b5d0-f7eb095c8418",
+        "task_id": "f5fc4109-187b-4f97-9bce-77281bcf4d6a",
+        "tenant_id": "1574a745-bfb5-4cbd-9ba7-647f54b7e888",
+        "worker_id": "flowai-worker-local-MinMacBookPro25.local-5056-1b2a3914",
+        "workflow_run_id": "b3e51a83-b16a-4976-896d-78dfae03af3a"
+      },
+      "capacity_limits": {
+        "global_limit": null,
+        "tenant_limit": null,
+        "worker_limit": 1
+      },
+      "cost_usd": null,
+      "executor_implementation": "cli",
+      "executor_key": "claude_cli",
+      "executor_provider": "anthropic",
+      "fallback_path": [
+        "claude_sdk"
+      ],
+      "selected_executor_key": "claude_cli",
+      "session_id": "ba8e8bc5-c6f1-4067-9ef4-b2a2fedb1de8",
+      "success": true,
+      "success_failure_classification": "success",
+      "tool": "claude_code",
+      "total_turns": 38
+    },
+    "coding_executor_routing": {
+      "attempt_number": 2,
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "capacity_active_counts": {
+            "executor_active": 1,
+            "tenant_active": 1,
+            "worker_active": 1
+          },
+          "capacity_lease": {
+            "claimed_at": "2026-05-31T22:39:14.363392+00:00",
+            "executor_key": "claude_sdk",
+            "expires_at": "2026-05-31T23:11:14.363392+00:00",
+            "heartbeat_at": "2026-05-31T22:39:14.363392+00:00",
+            "lease_id": "fa6db0c4-6c25-4067-b349-61753f0832ee",
+            "task_id": "f5fc4109-187b-4f97-9bce-77281bcf4d6a",
+            "tenant_id": "1574a745-bfb5-4cbd-9ba7-647f54b7e888",
+            "worker_id": "flowai-worker-local-MinMacBookPro25.local-5056-1b2a3914",
+            "workflow_run_id": "b3e51a83-b16a-4976-896d-78dfae03af3a"
+          },
+          "capacity_limits": {
+            "global_limit": null,
+            "tenant_limit": null,
+            "worker_limit": 1
+          },
+          "classification": "transient_runtime_failure",
+          "cost_usd": null,
+          "error": "Claude Agent SDK execution timed out after 3600s.",
+          "error_subtype": null,
+          "executor_key": "claude_sdk",
+          "implementation": "sdk",
+          "provider": "anthropic",
+          "session_id": null,
+          "success": false,
+          "total_turns": null
+        },
+        {
+          "attempt_number": 2,
+          "capacity_active_counts": {
+            "executor_active": 1,
+            "tenant_active": 1,
+            "worker_active": 1
+          },
+          "capacity_lease": {
+            "claimed_at": "2026-05-31T23:56:39.186907+00:00",
+            "executor_key": "claude_cli",
+            "expires_at": "2026-06-01T00:28:39.186907+00:00",
+            "heartbeat_at": "2026-05-31T23:56:39.186907+00:00",
+            "lease_id": "3eea6b27-0963-4a3e-b5d0-f7eb095c8418",
+            "task_id": "f5fc4109-187b-4f97-9bce-77281bcf4d6a",
+            "tenant_id": "1574a745-bfb5-4cbd-9ba7-647f54b7e888",
+            "worker_id": "flowai-worker-local-MinMacBookPro25.local-5056-1b2a3914",
+            "workflow_run_id": "b3e51a83-b16a-4976-896d-78dfae03af3a"
+          },
+          "capacity_limits": {
+            "global_limit": null,
+            "tenant_limit": null,
+            "worker_limit": 1
+          },
+          "classification": "success",
+          "cost_usd": null,
+          "error": null,
+          "error_subtype": "success",
+          "executor_key": "claude_cli",
+          "implementation": "cli",
+          "provider": "anthropic",
+          "session_id": "ba8e8bc5-c6f1-4067-9ef4-b2a2fedb1de8",
+          "success": true,
+          "total_turns": 38
+        }
+      ],
+      "capacity_active_counts": {
+        "executor_active": 1,
+        "tenant_active": 1,
+        "worker_active": 1
+      },
+      "capacity_lease": {
+        "claimed_at": "2026-05-31T23:56:39.186907+00:00",
+        "executor_key": "claude_cli",
+        "expires_at": "2026-06-01T00:28:39.186907+00:00",
+        "heartbeat_at": "2026-05-31T23:56:39.186907+00:00",
+        "lease_id": "3eea6b27-0963-4a3e-b5d0-f7eb095c8418",
+        "task_id": "f5fc4109-187b-4f97-9bce-77281bcf4d6a",
+        "tenant_id": "1574a745-bfb5-4cbd-9ba7-647f54b7e888",
+        "worker_id": "flowai-worker-local-MinMacBookPro25.local-5056-1b2a3914",
+        "workflow_run_id": "b3e51a83-b16a-4976-896d-78dfae03af3a"
+      },
+      "capacity_limits": {
+        "global_limit": null,
+        "tenant_limit": null,
+        "worker_limit": 1
+      },
+      "cost_usd": null,
+      "executor_implementation": "cli",
+      "executor_key": "claude_cli",
+      "executor_provider": "anthropic",
+      "fallback_path": [
+        "claude_sdk"
+      ],
+      "selected_executor_key": "claude_cli",
+      "session_id": "ba8e8bc5-c6f1-4067-9ef4-b2a2fedb1de8",
+      "success": true,
+      "success_failure_classification": "success",
+      "tool": "claude_code",
+      "total_turns": 38
+    },
+    "executed_test_layers": [
+      "e2e"
+    ],
+    "instruction_profile": {
+      "collaboration_contract": [
+        "Validate implementation and peer review outputs before delivery proceeds.",
+        "Provide actionable remediation output for retry or reassignment flows."
+      ],
+      "operating_principles": [
+        "Fail safely when peer review, verification commands, or sandbox execution evidence is missing.",
+        "Treat unit, integration, and end-to-end verification as required engineering evidence.",
+        "Emit structured validation decisions suitable for reflection and remediation."
+      ],
+      "output_contract": [
+        "Validation decision",
+        "Executed test layers",
+        "Recommendations"
+      ],
+      "profile_key": "software.sdet.engineering_quality.v1",
+      "quality_gates": [
+        "Structural evidence present.",
+        "Engineering quality evidence present.",
+        "Delivery readiness explicit before release."
+      ],
+      "system_instruction": "Validate the software delivery chain for structural correctness, engineering quality, and delivery readiness using upstream product requirements, architecture, implementation, and peer review evidence.",
+      "team_knowledge_base": [
+        "# Software Engineering Agent Team Operating Guide\n\nThis guide defines how the software engineering agent team collaborates to deliver production-grade software. Every agent on this team must follow these protocols.\n\n## Team Composition\n\n| Role | Responsibility | Upstream | Downstream |\n|------|---------------|----------|------------|\n| Product Manager | Translate business goals into explicit, testable requirements | Goal input | Architect, Engineer |\n| Solution Architect | Design system architecture, interfaces, and constraints | Requirements | Engineer |\n| Software Engineer | Produce implementation plan with test plan and verification commands | Architecture | Peer Reviewer |\n| Peer Reviewer | Independent review of implementation; must not be the implementer | Implementation | SDET |\n| SDET | Structural, engineering quality, and delivery readiness validation | Peer Review | Groundedness Validator |\n| Groundedness Validator | Verify outputs are grounded in goal and retrieved evidence | All upstream | Final Delivery Gate |\n\n## Collaboration Protocol\n\n### Handoff Contract\nEvery upstream agent must produce output that downstream agents can consume without ambiguity:\n- The output payload must contain all fields listed in the agent's output contract.\n- Artifact drafts must be self-contained markdown documents with structured headings.\n- Citations and evidence refs must trace back to retrieved knowledge or upstream artifacts.\n\n### Reviewer Separation\nThe peer reviewer must be a different agent instance than the implementation engineer. This is enforced by the agent matcher during task dispatch. If only one engineer agent is available, the workflow must escalate to human review rather than self-reviewing.\n\n### Validation Chain\nThe SDLC validation chain is sequential and non-skippable:\n1. Structural Validation \u2014 verify all upstream artifacts exist and contain required fields\n2. Engineering Quality Validation \u2014 verify test plan, verification commands, sandbox execution metadata, and peer review approval\n3. Final Delivery Gate \u2014 verify no blocking validation outcomes remain from prior stages\n\nEach validation stage receives the full upstream context. Validators must never operate on isolated fragments.\n\n### Implementation Planning And Subtasks\nBefore writing code, the full-stack software engineer must generate an implementation plan by using the LLM chat API. The coding executor must not be used to create this plan. The plan must include delivery steps, test strategy, verification commands, effort estimate, complexity estimate, and subtask breakdown when effort or complexity is medium or higher.\n\nWhen implementation work is decomposed, the parent Implementation task owns the final deliverable set and each child implementation subtask delivers one assigned slice in the shared workspace. A child subtask must preserve earlier child changes, add focused tests and verification evidence, and rely on the platform-managed git commit flow for traceability. The engineer must never manually run git history commands such as commit, push, checkout, or reset.\n\nBefore any implementation subtask writes code, it must inspect the existing workspace deeply enough to understand the current project: git history, git status, top-level structure, `.flowai/CODEBASE_CONTEXT.md` when present, relevant source files, tests, configuration, migrations, and docs. The subtask must build directly on prior subtask deliverables already committed in the shared workspace and must include a `Workspace analysis performed` section in its final response describing the files reviewed and how the changes extend the existing codebase.\n\n### Escalation Path\nWhen an agent encounters a blocking issue that cannot be resolved by retry or reassignment:\n1. Record the issue with full context in the validation decision\n2. Set the action to `require_human_review`\n3. The orchestration layer will create a human review ticket with the requesting agent, review reason, and all upstream context\n\n## Quality Standards\n\n### Every Output Must Include\n- A structured `output_payload` dictionary with role-specific fields\n- At least one artifact draft (markdown document)\n- An `instruction_profile` reference in the output payload\n- A `confidence_score` between 0.0 and 1.0\n- Any `warnings` or `risk_flags` discovered during execution\n\n### Evidence-Based Reasoning\n- Never fabricate data, metrics, or claims not supported by upstream outputs or retrieved knowledge\n- Flag uncertainty explicitly with `uncertainty_flags` rather than presenting guesses as facts\n- Prefer `retrieve_more_context` over unsupported conclusions when evidence is insufficient\n\n### Tenant Isolation\n- Every workflow run, task, artifact, and memory record is scoped to a tenant\n- Never reference or leak data from one tenant's context into another's\n- Preserve tenant ID propagation through all service calls and persistence operations\n",
+        "# Software Engineering Agent Instructions\n\nThese instructions define the project context, architectural standards, and coding conventions that every AI agent on this software engineering team must follow when producing implementation plans, code, and validation outputs.\n\n## Shared Workspace Collaboration Protocol\n\nYou are operating inside a **shared, git-tracked project workspace**. Multiple specialist agents (Product Manager, Architect, Engineer, Peer Reviewer, SDET, Validators) work in this same directory in sequence. Each agent's changes are committed as a separate git commit after execution.\n\n### Before Writing Any File\n\n1. Run `git log --oneline -10` to see what previous agents have already committed.\n2. Run `git status --short` to verify your starting point.\n3. Run `ls -la` to inspect the top-level directory structure.\n4. Read `.flowai/CODEBASE_CONTEXT.md` (if it exists) for full context about the existing repository.\n5. Inspect the relevant existing source files, tests, configuration, migrations, and docs before adding or modifying anything.\n6. If FlowAI selected an existing repository, stay on the pre-created feature branch and treat the cloned codebase as the source of truth for all deliverables.\n7. Include `Workspace analysis performed` in your final response, listing the key existing files you read and how your changes build on them.\n\n### Core Rules\n\n- **Build on existing code** \u2014 never recreate project structures that prior agents already established.\n- **Work inside the existing directory layout** \u2014 add files to the directories already in use.\n- **Do NOT run `git add`, `git commit`, `git push`, `git checkout`, `git reset`, or history-rewriting commands** \u2014 the FlowAI platform creates the feature branch, commits each agent's changes, and opens the final PR/MR automatically after final delivery is complete. Manual git commands create duplicate or conflicting history.\n- **Do NOT create a new top-level project directory** if one already exists. The workspace IS the project.\n- **Do NOT reinitialise the project** (e.g. `npm init`, `poetry new`, `django-admin startproject`) if the project is already initialised.\n\n### For Implementation Engineers\n\n- Before writing or editing code, generate and follow the implementation plan prepared by the LLM chat API.\n- If this is a child implementation subtask, deliver only the assigned subtask scope and preserve all committed outputs from earlier subtasks.\n- If this is a child implementation subtask, inspect prior subtask commits and files first, then extend the existing project in place instead of recreating modules or scaffolding.\n- Treat the parent Implementation task as the owner of the final deliverables; each subtask contributes code, tests, configuration, documentation, and verification evidence into the same shared workspace.\n- Read all files in `app/` (or the main source directory) before adding new modules.\n- Write tests in the same `tests/` directory used by existing tests.\n- Use the same dependencies and import paths already established in the codebase.\n\n### For SDET / Validators\n\n- Run existing tests with `python3 -m pytest -q` (or equivalent) to establish a baseline.\n- Write new tests that import from the same source tree the engineer used.\n- Do not change file structure \u2014 validate what is there.\n\n## Architecture Standards\n\n### Service Layer Structure\nOrganize backend services in four layers. Never bypass layers.\n\n```\nAPI layer        \u2192 Request validation, auth context resolution, HTTP routing\nApplication layer \u2192 Business logic coordination, workflow orchestration\nInfrastructure   \u2192 Database repositories, external service clients\nDomain           \u2192 Value objects, DTOs, enums, business rules\n```\n\n- API schemas validate input at the boundary using Pydantic v2 `Field(min_length=1)` on required strings.\n- Application services receive resolved tenant context, never raw tokens or headers.\n- Repositories are the only layer that issues SQL queries.\n- All I/O operations use `async def`.\n\n### Database Design\n- Use SQLAlchemy `Mapped[T]` with `mapped_column()` \u2014 never legacy `Column()` syntax.\n- Every FK column must have a named `Index(...)` in `__table_args__`.\n- Use `UniqueConstraint` for all business uniqueness rules.\n- High-write ledger tables use integer autoincrement PKs for insert performance.\n- Use UUID PKs for all business entity tables.\n\n### API Design\n- RESTful endpoints with consistent naming: plural nouns for collections, IDs for resources.\n- Return HTTP 422 for validation failures (handled automatically by Pydantic).\n- Return HTTP 404 for missing resources within the tenant scope.\n- Return HTTP 403 for cross-tenant access attempts.\n- Include `request_id` in all structured log entries.\n\n### Error Handling\n- Validate at system boundaries (user input, external APIs) \u2014 trust internal code and framework guarantees.\n- Use structured error responses with machine-readable error codes.\n- Log errors as structured JSON with context (tenant_id, request_id, operation).\n- Never expose internal stack traces in API responses.\n\n## Coding Conventions\n\n### Python\n- Type-annotate all function signatures and return types.\n- Use `from __future__ import annotations` at the top of every module.\n- Prefer `str | None` over `Optional[str]`.\n- Use Pydantic `BaseModel` for all DTOs; use `Field(default_factory=...)` for mutable defaults.\n- Never use bare `except:` \u2014 always catch specific exception types.\n- Keep functions under 50 lines; extract helpers when logic becomes nested.\n\n### TypeScript / React\n- Use TypeScript strict mode for all frontend code.\n- Use `useTransition` with `startTransition` for async form submissions.\n- Disable all form inputs during `isPending`, not just the submit button.\n- Show explicit success/error feedback after every async action.\n- Distinguish loading, loaded, and error states \u2014 never show literal \"Not loaded\" strings.\n- Use `Promise.allSettled` for parallel dashboard data fetches.\n\n### Testing\n- Unit tests: pure logic, no I/O, mock only external HTTP calls.\n- Integration tests: real database (SQLite for tests), not mocks.\n- E2E tests: full HTTP stack via test client with real in-memory DB.\n- Every API endpoint needs at least: valid request test, invalid request test (422), cross-tenant test (404/403).\n\n## Quality Gates\n\nEvery code change must pass ALL of the following gates before it is considered complete.\n\n### Gate 1 \u2014 Line Coverage \u2265 80%\n- Run `pytest --cov=app --cov-report=term-missing -q` and verify overall line coverage is **\u2265 80%**.\n- Any new module, class, or function introduced by the change must individually reach \u2265 80% line coverage.\n- Coverage is measured over the changed files; global coverage must not regress below the baseline.\n- Uncovered lines in new code are a blocking defect \u2014 add tests or justify the exclusion explicitly.\n\n### Gate 2 \u2014 E2E Test Coverage for Every New Feature\n- Every new user-facing feature or API endpoint must have at least one E2E test that exercises the full HTTP stack from request to response.\n- The E2E test must cover the primary success path and at least one failure path (invalid input, missing auth, or tenant isolation violation).\n- E2E tests live in `tests/e2e/` and use `AsyncClient` with a real in-memory database \u2014 no mocks at the HTTP layer.\n- Features without a corresponding E2E test are incomplete regardless of unit test coverage.\n\n### Gate 3 \u2014 Feature and Acceptance Criterion Coverage\n- Every acceptance criterion in the task description maps to at least one automated test (unit, integration, or E2E).\n- Before marking a task done, enumerate each acceptance criterion and confirm the test that validates it.\n- Negative acceptance criteria (e.g. \"must not allow cross-tenant access\") must have explicit negative tests that assert the rejection.\n\n### Gate 4 \u2014 Non-Regression\n- All existing tests must pass with zero failures: `pytest -q` exits 0.\n- No existing test may be deleted or marked `xfail` to make the suite green \u2014 fix the regression.\n- Frontend: `npm run typecheck` and `npm run test` must both pass.\n- Any test that fails because of the change must be fixed in the same PR, not deferred.\n\n### Gate 5 \u2014 Static Analysis and Type Safety\n- Python: `python -m compileall app tests` must produce zero syntax errors.\n- TypeScript: `npm run typecheck` (strict mode) must produce zero type errors.\n- No new `# type: ignore` or `@ts-ignore` suppressions without an inline comment explaining why they are safe.\n\n### Enforcement\n- Agents must self-assess against all five gates before reporting a task as complete.\n- Validation agents (SDET) must verify gate compliance as part of structural and engineering quality validation.\n- Any gate failure is a blocking defect \u2014 return the task to the implementer with the specific gate that failed and the exact coverage or test output.\n\n## Security Requirements\n\n### Authentication\n- Backend verifies JWTs on every authenticated request.\n- Auth context is resolved once per request in the dependency layer.\n- Never trust raw headers for identity or tenant resolution.\n\n### Authorization\n- All business queries include tenant_id filter.\n- Demo and paid tenants have separate code paths.\n- Secret values (API keys, OAuth credentials) are stored on the filesystem, not in the database.\n\n### Input Validation\n- Every required string field has `Field(min_length=1)`.\n- Every enum field is validated against allowed values.\n- File paths are validated to stay within configured roots (memory root, artifact root).\n\n## Production Deployment\n\n### Reliability\n- Retry with exponential backoff and jitter on transient external calls (JWKS fetch, Stripe, LLM providers).\n- Circuit breaker on LLM provider calls to prevent cascade failures.\n- Fail-open for telemetry (LangSmith, usage ledger) \u2014 never block the user on observability writes.\n- Fail-safe for auth and billing \u2014 never silently downgrade security or entitlement checks.\n\n### Observability\n- Structured JSON logs with request_id and trace_id propagation.\n- Token usage recorded in the usage ledger after every LLM call.\n- Optional LangSmith tracing as a fail-open overlay.\n\n### Database Migrations\n- Every Alembic migration has a human-readable docstring.\n- Use `batch_alter_table` for all constraint additions (required for SQLite compatibility).\n- Create indexes before adding FK constraints.\n- NULL-ify orphaned nullable FK references before adding constraints.\n- Guard PostgreSQL-specific operations with dialect checks.\n\n### Scalability\n- Design every service to be horizontally scalable \u2014 no local state between requests.\n- Use connection pooling for databases; monitor pool utilization and tune pool size.\n- Paginate all list endpoints; use cursor-based pagination for large datasets.\n- Decouple write-heavy paths (event logging, usage ledger) from read-heavy paths where possible.\n\n### Multi-Environment Configuration\n- Support at least three environments: local development, staging, production.\n- Use environment variables for all environment-specific configuration \u2014 never hardcode URLs or credentials.\n- Validate all required configuration at startup via `@field_validator` \u2014 fail fast on misconfigured deployments.\n- Keep staging as close to production as possible: same database engine, same auth provider, same external service integrations.\n\n### Health Checks and Graceful Shutdown\n- Expose `/healthz` (liveness) and `/readyz` (readiness) endpoints for load balancers and orchestrators.\n- On shutdown signal (SIGTERM), stop accepting new requests, finish in-flight requests, then exit.\n- Set readiness probe to fail during startup (before migrations are applied and dependencies are verified).\n- Include database connectivity and critical dependency checks in the readiness probe.\n",
+        "---\nname: production-software-engineering\ndescription: Production-grade software engineering skills for AI agent teams delivering backend services, databases, frontends, and full-stack applications. Covers architecture design, implementation patterns, testing strategies, security hardening, performance optimization, reliability engineering, and AI-native service patterns. Use when planning, implementing, reviewing, or validating software delivery tasks.\n---\n\n# Production Software Engineering Skills\n\n## 1. Backend Service Patterns\n\n### FastAPI Async Services\n- Define all route handlers as `async def` \u2014 never block the event loop with synchronous I/O.\n- Use dependency injection for auth context, database sessions, and service instances.\n- Validate all request bodies with Pydantic v2 schemas; add `Field(min_length=1)` to required strings.\n- Return structured error responses with consistent error codes across all endpoints.\n- Use `BackgroundTasks` for non-critical side effects (telemetry, notifications) that must not block the response.\n\n### Repository Pattern\n- Repositories encapsulate all database queries \u2014 services never build raw SQL or ORM queries.\n- Every query on business data includes a `tenant_id` filter.\n- Use `select()` with explicit column lists for read-heavy paths.\n- Use `returning()` on INSERT/UPDATE to avoid extra round-trips when the caller needs the result.\n\n### DTO and Schema Separation\n- API schemas (Pydantic `BaseModel`) define the HTTP contract \u2014 what the client sends and receives.\n- DTOs define the internal contract between application layers.\n- Database models define the persistence schema.\n- Never pass ORM models through the API layer; always map to DTOs or API schemas.\n\n## 2. Database Patterns\n\n### Schema Design\n- Use UUID primary keys for business entities (users, tenants, workflows, agents).\n- Use integer autoincrement primary keys for high-write ledger and event tables.\n- Add compound indexes on `(tenant_id, created_at)` for time-range tenant queries.\n- Add single-column indexes on every FK column and every column used in WHERE or ORDER BY.\n- Use `UniqueConstraint` for all business uniqueness rules \u2014 never rely on application-layer dedup.\n\n### Migration Discipline\n- Each migration file has a descriptive docstring explaining what changed and why.\n- Create indexes before FK constraints so constraint validation can use them.\n- Use `batch_alter_table` for SQLite compatibility on constraint additions.\n- Pre-cleanup: NULL-ify orphaned nullable FK references before adding constraints.\n- Guard PostgreSQL-specific DDL with `if bind.dialect.name == \"postgresql\"`.\n- Use `if_not_exists=True` on index creation for idempotent migrations.\n\n### Connection Management\n- Use `async_sessionmaker` with `expire_on_commit=False` and `autoflush=False`.\n- Pin `search_path` at the engine level for PostgreSQL schema isolation.\n- Use `pool_pre_ping=True` to detect stale connections.\n\n## 3. Frontend Patterns\n\n### React / Next.js\n- Use the App Router with server components for static content and client components for interactive UI.\n- Use `useTransition` + `startTransition` for all async form submissions.\n- Disable all form inputs (not just submit buttons) during `isPending`.\n- Show explicit success feedback after every mutation \u2014 silence is ambiguous UX.\n- Use `Promise.allSettled` for dashboard data fetches so one failure does not block others.\n\n### State Management\n- Distinguish three states: loading, loaded-with-data, loaded-empty/error.\n- Never show literal placeholder strings like \"Not loaded\" \u2014 use dashes or skeletons.\n- Use `useEffect` cleanup (`return () => { active = false }`) to prevent state updates on unmounted components.\n\n### Accessibility\n- Every input has a `<label>` with `htmlFor` or is wrapped in a `<label>` element.\n- Button text reflects current state: \"Saving...\" during pending, \"Save\" when idle.\n- Error messages use `aria-describedby` to associate with the relevant field.\n- Form validation errors appear inline next to the field, not just at the top.\n\n## 4. Testing Strategies\n\n### Test Pyramid\n- **Unit tests**: Pure logic, no I/O. Mock only external HTTP calls. Fast, deterministic.\n- **Integration tests**: Real database (SQLite in tests). Test repository queries, service coordination, and DB constraints.\n- **E2E tests**: Full HTTP stack via `AsyncClient` with real in-memory DB. Test auth, routing, validation, and response shapes.\n\n### What To Test\n- Tenant isolation in every query path.\n- Auth resolution and token verification.\n- Billing enforcement (credit consumption, subscription limits, demo isolation).\n- SDLC validation chain ordering and completeness.\n- API contract: valid request (2xx), invalid request (422), cross-tenant (404/403).\n\n### What Not To Test\n- Third-party library internals (Stripe SDK, Supabase SDK behavior).\n- Framework guarantees (Pydantic field validation, FastAPI 422 handling).\n- Implementation details that change frequently (exact log message text).\n\n### Async Test Patterns\n```python\n@pytest.fixture\nasync def db_session(tmp_path):\n    engine = create_async_engine(f\"sqlite+aiosqlite:///{tmp_path}/test.db\")\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\n    factory = async_sessionmaker(engine, expire_on_commit=False)\n    async with factory() as session:\n        yield session\n    await engine.dispose()\n```\n\n## 5. Security Hardening\n\n### Authentication and Authorization\n- Verify JWTs on every authenticated request \u2014 never cache auth decisions across requests.\n- Resolve auth context once per request in the middleware/dependency layer.\n- Reject requests from unverified or un-onboarded users at the API gateway.\n- Never trust client-supplied tenant IDs \u2014 derive them from the verified auth token.\n\n### Input Validation\n- Validate at system boundaries: API input, webhook payloads, external API responses.\n- Use `Field(min_length=1)` on all required string fields.\n- Validate file paths stay within configured roots to prevent path traversal.\n- Normalize blank strings from environment variables to `None` for optional fields.\n\n### Secret Management\n- Store secrets (API keys, OAuth tokens) on the filesystem, not in the database.\n- Never log secret values \u2014 mask them in structured log output.\n- Validate secret fields have minimum length at startup via `@field_validator`.\n- Use obviously-placeholder default values for secrets so misconfiguration is visible.\n\n### Common Vulnerabilities to Prevent\n- SQL injection: use parameterized queries (ORM handles this; never build raw SQL strings).\n- XSS: React auto-escapes by default; never use `dangerouslySetInnerHTML` with user content.\n- CSRF: use token-based auth (Bearer JWT), not cookies, for API calls.\n- Path traversal: validate all file paths against configured root directories.\n\n## 6. Reliability Patterns\n\n### Retry and Circuit Breaker\n- Retry transient failures with exponential backoff and jitter (base delay 200-500ms, max 3 retries).\n- Use circuit breakers on external service calls (LLM providers, Stripe, JWKS) \u2014 open after N consecutive failures, reset after a cooldown period.\n- Fail-open for telemetry (usage logging, tracing) \u2014 never block business logic on observability writes.\n- Fail-safe for auth and billing \u2014 never silently downgrade on transient errors.\n\n### Idempotency\n- Use idempotency keys for all state-mutating operations that may be retried.\n- Store idempotency records to detect and deduplicate retries.\n- Return the same response for duplicate requests with the same idempotency key.\n\n### Graceful Degradation\n- Dashboard KPI panels render independently \u2014 one failing data source does not block others.\n- LLM provider failures trigger fallback to alternate providers via the router.\n- Webhook processing records events first (status=received), processes later \u2014 never lose events.\n\n## 7. Performance and Capacity\n\n### Database Performance\n- Use compound indexes for multi-column WHERE clauses (most selective column first).\n- Use `selectin` loading for known-small relationship collections.\n- Avoid N+1 queries: use `joinedload` or `selectinload` for relationships accessed in loops.\n- Use integer PKs on high-write tables (ledgers, events) to avoid UUID B-tree fragmentation.\n\n### API Performance\n- Use `Promise.allSettled` or parallel `asyncio.gather` for independent data fetches.\n- Paginate all list endpoints with cursor or offset-based pagination.\n- Set appropriate `page_size` defaults (50) to prevent unbounded result sets.\n\n### Frontend Performance\n- Use Next.js server components for static content to reduce client JavaScript.\n- Lazy-load heavy components (charts, editors) with `React.lazy` and `Suspense`.\n- Avoid re-renders: use `useMemo` for expensive derived values, `useCallback` for stable function references.\n\n## 8. AI-Native Service Patterns\n\n### LLM Integration\n- Route all LLM calls through a provider-agnostic router \u2014 never call provider SDKs directly from business logic.\n- Use standardized request/response DTOs (`LLMRequest`, `LLMResponse`) across all providers.\n- Extract and record token usage from every LLM response into the usage ledger.\n- Apply per-provider retry logic with circuit breakers in the router layer.\n\n### Agent Orchestration\n- Build task graphs with explicit dependencies \u2014 never assume execution order.\n- Persist agent output as durable artifacts immediately after execution.\n- Pass full upstream context to each agent \u2014 never operate on isolated fragments.\n- Enforce reviewer separation: peer reviewers must be different agents than implementers.\n- Record execution memory (summary, citations, artifacts) for every completed task.\n\n### Validation and Quality Gates\n- Structural validation: verify all required fields exist in upstream output payloads.\n- Engineering quality: verify test plans, verification commands, and sandbox execution metadata.\n- Grounded truth: verify outputs are supported by goal context and retrieved knowledge.\n- Emit structured validation decisions with `action` (pass, fail, retry, escalate) for the reflection layer.\n\n### Human-in-the-Loop\n- Human review is a designed escalation path, not a failure mode.\n- Review tickets carry full context: task ID, requesting agent, review reason, upstream outputs.\n- Review decisions (approve, reject, request_changes) trigger workflow resumption or remediation.\n- Use idempotency keys on review tickets to prevent duplicate escalations.\n\n## 9. Large-Scale Distributed Systems\n\n### Event-Driven Architecture\n- Use asynchronous messaging (message queues, event buses) to decouple services that do not need synchronous responses.\n- Publish domain events when state changes occur \u2014 downstream consumers subscribe independently.\n- Events must be idempotent: every consumer must tolerate receiving the same event more than once.\n- Schema-version all event payloads so consumers can evolve independently of producers.\n- Use dead-letter queues (DLQs) for messages that fail processing after maximum retries.\n\n### Service Decomposition\n- Decompose by business capability, not by technical layer \u2014 each service owns its data and API.\n- Use API gateways to consolidate cross-cutting concerns (auth, rate limiting, request routing).\n- Prefer synchronous HTTP for queries that need immediate results; prefer async messaging for commands that tolerate latency.\n- Define explicit service contracts (OpenAPI schemas, Protobuf definitions) and version them.\n- Avoid distributed transactions \u2014 use sagas (orchestration or choreography) for multi-service state changes.\n\n### Data Consistency\n- Prefer eventual consistency over distributed locks wherever business rules allow.\n- Use the outbox pattern: write domain events to a local outbox table in the same transaction as the business write, then publish asynchronously.\n- For operations that require strong consistency, keep them within a single service boundary.\n- Implement compensating transactions (rollback sagas) for multi-step workflows that partially fail.\n\n### API Versioning and Compatibility\n- Version APIs in the URL path (`/v1/`, `/v2/`) for breaking changes.\n- Prefer additive-only changes (new optional fields) over breaking changes wherever possible.\n- Deprecate old API versions with a sunset date; emit deprecation warnings in response headers.\n- Run old and new versions in parallel during migration periods \u2014 never break callers without notice.\n\n## 10. CI/CD and Deployment Patterns\n\n### Pipeline Design\n- Every commit triggers: lint, type check, unit tests, integration tests in parallel.\n- Merge to main triggers: full E2E test suite, container build, staging deployment.\n- Production deployments use blue-green or canary strategies \u2014 never deploy directly to 100% of traffic.\n- Pipeline fails fast: lint and compile checks run before expensive test suites.\n\n### Container and Infrastructure\n- Use multi-stage Docker builds: builder stage for dependencies, runtime stage for the final slim image.\n- Pin base image versions to digests, not tags \u2014 tags are mutable and can change without notice.\n- Run containers as non-root users with read-only filesystems where possible.\n- Use health check endpoints (`/healthz`, `/readyz`) for load balancer and orchestrator integration.\n- Store infrastructure configuration as code (Terraform, Pulumi, CloudFormation) \u2014 never configure by hand.\n\n### Feature Flags and Gradual Rollout\n- Use feature flags for any change that affects user-visible behavior in production.\n- Roll out new features to internal users first, then a percentage of production traffic, then 100%.\n- Feature flags must have an expiration date \u2014 remove them after rollout is complete.\n- Never use feature flags as permanent configuration toggles \u2014 they are for rollout control only.\n\n### Database Migration Safety\n- Run migrations in a separate pipeline step before deploying new application code.\n- Migrations must be backward-compatible: new code must work with the old schema during rollout.\n- Use expand-contract pattern: first expand (add new column), deploy new code, then contract (remove old column) in a later release.\n- Never drop columns, rename tables, or change types in the same deploy as the code that stops using them.\n\n## 11. Monitoring, Alerting, and Incident Response\n\n### Monitoring\n- Instrument every service with the four golden signals: latency, traffic, errors, saturation.\n- Use structured metrics with labels for tenant_id, endpoint, status_code, and provider.\n- Set up dashboards for: API latency P50/P95/P99, error rate by endpoint, queue depth, database connection pool utilization.\n- Monitor LLM provider health independently: latency, token throughput, error rate per provider.\n\n### Alerting\n- Alert on symptoms (elevated error rate, high latency) not causes (CPU usage).\n- Set thresholds based on SLO burn rate: alert when error budget consumption accelerates.\n- Page on customer-facing impact only; use non-urgent channels for internal-only degradation.\n- Every alert must have a runbook link with investigation and remediation steps.\n\n### Incident Response\n- Define severity levels (SEV1\u2013SEV4) with clear criteria and escalation paths.\n- SEV1/SEV2: page on-call, open incident channel, assign incident commander.\n- Write blameless postmortems for SEV1/SEV2 incidents within 48 hours.\n- Track action items from postmortems to completion \u2014 recurring incidents indicate systemic issues.\n\n## 12. Caching and Data Access Optimization\n\n### Application-Level Caching\n- Cache frequently-read, rarely-changing data (configuration, billing plans, team templates) with TTL-based expiration.\n- Use `lru_cache` or `functools.cache` for in-process caching of deterministic computations.\n- Invalidate caches on write: when data changes, clear the relevant cache entries immediately.\n- Never cache tenant-scoped data in a shared cache without including tenant_id in the cache key.\n\n### Database Query Optimization\n- Use EXPLAIN ANALYZE on slow queries to identify missing indexes and inefficient join strategies.\n- Avoid N+1 queries: use `selectinload` or `joinedload` for relationships accessed in loops.\n- Use cursor-based pagination for large result sets \u2014 offset-based pagination degrades at high offsets.\n- Partition high-volume tables (audit logs, usage ledger) by time range for query performance and data retention.\n\n### CDN and Edge Caching\n- Serve static frontend assets (JS, CSS, images) through a CDN with \n[truncated: string exceeds workspace task output size limit]"
+      ],
+      "title": "Software Quality Validation Specialist"
+    },
+    "sandbox_execution": {
+      "allow_dependency_install": true,
+      "allow_system_packages": false,
+      "allowed_hosts": [
+        "files.pythonhosted.org",
+        "pypi.org"
+      ],
+      "execution_mode": "containerized_build",
+      "network_access": "restricted",
+      "required_env_vars": [],
+      "runtime_image": "python:3.12-slim",
+      "sandbox_id": "_run_shared",
+      "task_id": "_run_shared",
+      "timeout_seconds": 1800
+    },
+    "sandbox_requirements": {
+      "allowed_hosts": [
+        "pypi.org",
+        "files.pythonhosted.org"
+      ],
+      "execution_mode": "containerized_build",
+      "runtime_image": "python:3.12-slim"
+    },
+    "sandbox_seeded_paths": [],
+    "stage_order": 2,
+    "technical_requirements": {
+      "database": "sqlite",
+      "dependencies": [
+        "fastapi",
+        "sqlalchemy",
+        "uvicorn",
+        "pytest",
+        "httpx"
+      ],
+      "dependency_manifest": "fastapi>=0.116,<1.0\nuvicorn>=0.35,<1.0\nhttpx>=0.28,<1.0\npytest>=8.0,<9.0",
+      "dependency_manifest_path": "requirements.txt",
+      "deployment_target": "containerized_service",
+      "frameworks": [
+        "fastapi"
+      ],
+      "language_version": "3.12",
+      "libraries": [
+        "pydantic",
+        "sqlalchemy"
+      ],
+      "operating_system": "linux",
+      "orm": "sqlalchemy",
+      "package_manager": "pip",
+      "programming_language": "python",
+      "provisioning_policies": [
+        "Prefer pinned dependencies for reproducible builds.",
+        "Keep the generated workspace isolated from FlowAI service source code."
+      ],
+      "runtime_environment": "docker",
+      "setup_instructions": [
+        "Create an isolated virtual environment before installing dependencies.",
+        "Install dependencies from requirements.txt and keep runtime/test dependencies reproducible."
+      ],
+      "testing_frameworks": [
+        "pytest"
+      ]
+    },
+    "test_execution_summary": "97 passed, 0 failed, 0 errors \u2014 passed",
+    "validation_decision": {
+      "action": "pass",
+      "completeness_score": 100.0,
+      "grounded": true,
+      "issues": [],
+      "policy_compliant": true,
+      "quality_score": 100.0,
+      "recommendations": [],
+      "schema_valid": true,
+      "status": "pass",
+      "validation_scope": "engineering_quality"
+    },
+    "validation_report_decision_synced": true,
+    "validation_report_excerpt": "## Engineering Quality Validation \u2014 Complete\n\n**Decision: PASS** | Confidence: 0.95 | Action: `pass`\n\n### Independently Re-executed Verification Commands\n\n| Command | Result |\n|---------|--------|\n| `python3 -m compileall app tests` | 0 errors |\n| `python3 -m pytest --cov=app --cov-report=term-missing -q` | 97 passed, 93% coverage |\n| `python3 -m pytest tests/e2e/ -q` | 42 passed |\n\n### Quality Gates \u2014 All Pass\n\n| Gate | Threshold | Actual | Status |\n|------|-----------|--------|--------|\n| Gate 1: Line Coverage | >=80% | **93%** | PASS |\n| Gate 2: E2E Coverage | 1+ per endpoint | **42 tests**, 7 endpoints | PASS |\n| Gate 3: Acceptance Coverage | 100% criteria mapped | **8/8 active ACs** (AC8 waived) | PASS |\n| Gate 4: Non-Regression | 0 failures | **97 passed, 0 failed** | PASS |\n| Gate 5: Static Analysis | 0 syntax errors | **0 errors** | PASS |\n\n### What Was Validated\n\n- **8 upstream artifacts** \u2014 all present, complete, traceable (Requirements, Architecture, Implementation Plan, Peer Review, Structural Validation, Bug Fix Summary, Acceptance Criteria Matrix, Sandbox Execution Evidence)\n- **28 implementation files** \u2014 all present, all compile, all imports resolve\n- **7 bug fixes** \u2014 independently verified (autoflush=False, /readyz endpoint, structured logging, null rejection validators, description clearing, pytest deprecation fix, redundant onupdate documented)\n- **Reviewer separation** \u2014 confirmed (different agent IDs)\n- **Architecture compliance** \u2014 15/15 rules satisfied\n- **2 prior SDET findings resolved** (autoflush=False and asyncio_default_fixture_loop_scope)\n\n### Non-Blocking Findings (5)\n\n1. `app/schemas/task.py:56` \u2014 1 uncovered line (98% file coverage), add `test_valid_priority_passes`\n2. `CORS allow_origins=[\"*\"]` \u2014 tighten for production\n3. Module-level engine singleton \u2014 not horizontally scalable (acceptable for sandbox scope)\n4. `mypy` not installed \u2014 type checking limited to `compileall`\n5. Docker build not independently verifiable in this environment\n\n### Output\n\nFull report written to `docs/flowai-delivery/artifacts/041-validation_report-engineering_quality-validation-report-ca42ab44.md`.\n\n### Workspace Analysis Performed\n\nRead all 7 `app/` source files, all 8 test files, `Dockerfile`, `pyproject.toml`, `requirements.txt`, `.flowai/CODEBASE_CONTEXT.md`, and all 8 upstream artifact documents (REQUIREMENTS.md, ARCHITECTURE.md, PEER_REVIEW.md, BUG_FIX_SUMMARY.md, ACCEPTANCE_CRITERIA_MATRIX.md, implementation plan, structural validation report, peer review evidence). Independently re-executed all 3 verification commands with zero failures. No files modified \u2014 read-only validation.",
+    "validation_scope": "engineering_quality"
+  },
+  "role": "sdet",
+  "schema_version": 1,
+  "summary": "engineering_quality validation completed with action pass for 'Engineering Quality Validation'.",
+  "task_id": "f5fc4109-187b-4f97-9bce-77281bcf4d6a",
+  "task_title": "Engineering Quality Validation"
+}
