@@ -1,0 +1,1238 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "396e78bf-66d2-42e5-8e4c-03f1647f716d",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://396e78bf-66d2-42e5-8e4c-03f1647f716d",
+      "task_id": "bb12cc6b-8ff9-44bd-87d8-92a9d1ec8078",
+      "task_title": "Product Requirements",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "df44bc4c-2244-4aa6-adf6-f5b02cb5c41c",
+      "artifact_type": "product_requirements_document",
+      "content_hash": "a236f43b738e97ecccd9089bd857b45199c20109e9abd4111e162746e520d67d",
+      "materialized": true,
+      "size_bytes": 13121,
+      "storage_uri": "artifact://df44bc4c-2244-4aa6-adf6-f5b02cb5c41c",
+      "task_id": "bb12cc6b-8ff9-44bd-87d8-92a9d1ec8078",
+      "task_title": "Product Requirements",
+      "title": "Product Requirements",
+      "workspace_path": "docs/flowai-delivery/artifacts/002-product_requirements_document-Product-Requirements-df44bc4c.md"
+    },
+    {
+      "artifact_id": "c34827a8-2146-45c9-8007-8df8c944478e",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://c34827a8-2146-45c9-8007-8df8c944478e",
+      "task_id": "d6be20f6-3103-4bbb-a6e5-94101391f043",
+      "task_title": "Architecture Design",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "50f942d5-60dc-4a6f-9e29-89119fe10231",
+      "artifact_type": "architecture_document",
+      "content_hash": "ed28014daa46e81c2e629e93652ddb505bece6639e8a470d4893f30eb0880d62",
+      "materialized": true,
+      "size_bytes": 13823,
+      "storage_uri": "artifact://50f942d5-60dc-4a6f-9e29-89119fe10231",
+      "task_id": "d6be20f6-3103-4bbb-a6e5-94101391f043",
+      "task_title": "Architecture Design",
+      "title": "Architecture Design",
+      "workspace_path": "docs/flowai-delivery/artifacts/004-architecture_document-Architecture-Design-50f942d5.md"
+    },
+    {
+      "artifact_id": "62e68901-8b69-409e-a7b4-4493b3734a0f",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://62e68901-8b69-409e-a7b4-4493b3734a0f",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "f06b7215-7420-44d7-9dfc-ac939e02431c",
+      "artifact_type": "implementation_plan",
+      "content_hash": "9e7f88e8aa6705a0882aea08864e8d65f6b964e63f26fb58b40ab864bd4ede79",
+      "materialized": true,
+      "size_bytes": 9503,
+      "storage_uri": "artifact://f06b7215-7420-44d7-9dfc-ac939e02431c",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "Implementation Plan",
+      "workspace_path": "docs/flowai-delivery/artifacts/006-implementation_plan-Implementation-Plan-f06b7215.md"
+    },
+    {
+      "artifact_id": "5440b6c4-ff0f-4913-ac11-259deb30fe31",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://5440b6c4-ff0f-4913-ac11-259deb30fe31",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "da03d7eb-93a2-4ced-9bfd-c2114ec6cdd6",
+      "artifact_type": "implementation_plan",
+      "content_hash": "e265b59beafe50546f766d526e67c30a830bae3838ed35ba911831c88c9c893a",
+      "materialized": true,
+      "size_bytes": 2648,
+      "storage_uri": "artifact://da03d7eb-93a2-4ced-9bfd-c2114ec6cdd6",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "Implementation Plan",
+      "workspace_path": "docs/flowai-delivery/artifacts/008-implementation_plan-Implementation-Plan-da03d7eb.md"
+    },
+    {
+      "artifact_id": "f09232ed-f53c-48a9-ae36-24813f40a193",
+      "artifact_type": "generated_code",
+      "content_hash": "f1d1e940dcf9e01b97f1587bd4d312cca241b0dd57c519159c4d3ae80e09d9ed",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://f09232ed-f53c-48a9-ae36-24813f40a193",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": ".dockerignore"
+    },
+    {
+      "artifact_id": "5f4a66e4-354b-4a03-bb3e-df52661468fa",
+      "artifact_type": "generated_code",
+      "content_hash": "4b5ce022788bc5d1c3a3d4e81f1789425aa862d22e9b57201ded19e02cba3cfd",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://5f4a66e4-354b-4a03-bb3e-df52661468fa",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "Dockerfile"
+    },
+    {
+      "artifact_id": "7253aaa7-5e2e-4c57-bd42-20ae1a66e269",
+      "artifact_type": "generated_code",
+      "content_hash": "d431366c1acf9494f007557daa587c5224e2ac2bc285db4180e309cf4513fcf6",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://7253aaa7-5e2e-4c57-bd42-20ae1a66e269",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "conftest.py"
+    },
+    {
+      "artifact_id": "987ba6b0-58a6-4bd8-828e-bd2f90a6a852",
+      "artifact_type": "generated_code",
+      "content_hash": "32d66d847f40bac2a5925ed6bc1de269fa39697baf1d47088aae8906454829bf",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://987ba6b0-58a6-4bd8-828e-bd2f90a6a852",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "pytest.ini"
+    },
+    {
+      "artifact_id": "0a4c4670-0262-4277-8654-af1f1cf144b5",
+      "artifact_type": "generated_code",
+      "content_hash": "a37a930e55e69ebb4690171539fca29a5c1157361471952becef0322db2c0820",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://0a4c4670-0262-4277-8654-af1f1cf144b5",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "requirements.txt"
+    },
+    {
+      "artifact_id": "d2aca5df-6171-4a13-a8eb-cfef16365f66",
+      "artifact_type": "generated_code",
+      "content_hash": "4291d87d115c569a35b6ba3fdfb5d7947c330f596140ea21c12329ac94dd5969",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://d2aca5df-6171-4a13-a8eb-cfef16365f66",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "app/database.py"
+    },
+    {
+      "artifact_id": "9e439b4b-fa5a-4db0-8b04-f2bd26bdccbc",
+      "artifact_type": "generated_code",
+      "content_hash": "a34f45fbbff9b27400c3cc9a5b5ee08df8f45d171bff4404bb63583e7e3bc4e8",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://9e439b4b-fa5a-4db0-8b04-f2bd26bdccbc",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "app/models.py"
+    },
+    {
+      "artifact_id": "19bf82d6-1d4c-4e72-ab76-e011d11695c7",
+      "artifact_type": "generated_code",
+      "content_hash": "76956f0e193d14dc6d3bca51da8ed37a840e12d4961a23f992f4424b00793df6",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://19bf82d6-1d4c-4e72-ab76-e011d11695c7",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "tests/test_database.py"
+    },
+    {
+      "artifact_id": "fbcf0a67-d0f8-47b7-9a5f-a312579caa51",
+      "artifact_type": "generated_code",
+      "content_hash": "cea746ab95962933b39d8b84775a2e325dc971cbac42b5fb3129f8e2710c8a33",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://fbcf0a67-d0f8-47b7-9a5f-a312579caa51",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "tests/test_models.py"
+    },
+    {
+      "artifact_id": "863fa39a-1b7c-426e-8dba-810f9c146d24",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "af724851f654b6bc18cb261acb2969dc812ee3afeb7d15285b9253f15410ea90",
+      "materialized": true,
+      "size_bytes": 294,
+      "storage_uri": "artifact://863fa39a-1b7c-426e-8dba-810f9c146d24",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "Tool Execution Report 1",
+      "workspace_path": "docs/flowai-delivery/artifacts/018-tool_execution_report-Tool-Execution-Report-1-863fa39a.md"
+    },
+    {
+      "artifact_id": "4ab8a481-5bb2-4efb-8840-f05f8bec55ce",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "ab5b70b3372d04c43c8d8c8d087189da8cece6b4c6e4d2d94af49003ed038ecc",
+      "materialized": true,
+      "size_bytes": 590,
+      "storage_uri": "artifact://4ab8a481-5bb2-4efb-8840-f05f8bec55ce",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "Tool Execution Report 3",
+      "workspace_path": "docs/flowai-delivery/artifacts/019-tool_execution_report-Tool-Execution-Report-3-4ab8a481.md"
+    },
+    {
+      "artifact_id": "5209aa79-7555-44cf-812b-01867f67a009",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "226d0cc419b2ce021cf48d97ec46685c7b36bfc5f2e610fbe76cc66cf168c9de",
+      "materialized": true,
+      "size_bytes": 3782,
+      "storage_uri": "artifact://5209aa79-7555-44cf-812b-01867f67a009",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "Tool Execution Report 2",
+      "workspace_path": "docs/flowai-delivery/artifacts/020-tool_execution_report-Tool-Execution-Report-2-5209aa79.md"
+    },
+    {
+      "artifact_id": "4d8f8107-9737-4cfd-bad5-de7fccbd9fc4",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "798a2a3eaf15ba7bc90aa0b79555bcb99682fdc5f68bd861619278483dfd7750",
+      "materialized": true,
+      "size_bytes": 847,
+      "storage_uri": "artifact://4d8f8107-9737-4cfd-bad5-de7fccbd9fc4",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "Tool Execution Report 4",
+      "workspace_path": "docs/flowai-delivery/artifacts/021-tool_execution_report-Tool-Execution-Report-4-4d8f8107.md"
+    },
+    {
+      "artifact_id": "1d6c4d52-43af-4a68-a6f1-d2562475c6df",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "4d962a32aafcaed893bcb0d8024c7708d198128ec7acd45105090f2cbab68c98",
+      "materialized": true,
+      "size_bytes": 836,
+      "storage_uri": "artifact://1d6c4d52-43af-4a68-a6f1-d2562475c6df",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer",
+      "title": "Tool Execution Report 5",
+      "workspace_path": "docs/flowai-delivery/artifacts/022-tool_execution_report-Tool-Execution-Report-5-1d6c4d52.md"
+    },
+    {
+      "artifact_id": "c26d4f32-6153-41ac-99b9-be5498f3ab48",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://c26d4f32-6153-41ac-99b9-be5498f3ab48",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "15ae442b-a151-4fad-b6e3-f9c563c27e85",
+      "artifact_type": "implementation_plan",
+      "content_hash": "b42f3ef704d2bf39d0fe1a6cd1f0b443ac896012bd21744801b8f0a82a54770f",
+      "materialized": true,
+      "size_bytes": 2027,
+      "storage_uri": "artifact://15ae442b-a151-4fad-b6e3-f9c563c27e85",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "Implementation Plan",
+      "workspace_path": "docs/flowai-delivery/artifacts/024-implementation_plan-Implementation-Plan-15ae442b.md"
+    },
+    {
+      "artifact_id": "5a544302-759a-4948-ba0d-52ced5e90498",
+      "artifact_type": "generated_code",
+      "content_hash": "fc03fba9e0973496c8e8c6054a7f0a1b4a39792d367723dc15d4be7f2d0e1d8b",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://5a544302-759a-4948-ba0d-52ced5e90498",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "app/repository.py"
+    },
+    {
+      "artifact_id": "2820339b-a3e6-4d3f-82d6-c3eeb9adbdb9",
+      "artifact_type": "generated_code",
+      "content_hash": "25201e641562168c3c5c773472aea041d57c87fec1317e753a7f250d8f56a3bb",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://2820339b-a3e6-4d3f-82d6-c3eeb9adbdb9",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "app/service.py"
+    },
+    {
+      "artifact_id": "b90f740f-5b87-4da2-8833-46789be376f8",
+      "artifact_type": "generated_code",
+      "content_hash": "01342d94dcf74345d11bbf7a299013ab010e7a34f7bc881791c262800bcdebeb",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://b90f740f-5b87-4da2-8833-46789be376f8",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "tests/test_repository.py"
+    },
+    {
+      "artifact_id": "4888246b-ac57-4933-9d0e-c5bbedf6b099",
+      "artifact_type": "generated_code",
+      "content_hash": "327549ade1cc9cace853825bf25f0633b9d384946a2f4c98ca29f3cc0056b65f",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://4888246b-ac57-4933-9d0e-c5bbedf6b099",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "tests/test_service.py"
+    },
+    {
+      "artifact_id": "d8efa20d-8103-4f0e-9027-e71452d86dcf",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "96d723fab2f5c7f90fd2ad749c3abe37dd79e7e51a91e07a7a7ebf67d00b87c5",
+      "materialized": true,
+      "size_bytes": 294,
+      "storage_uri": "artifact://d8efa20d-8103-4f0e-9027-e71452d86dcf",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "Tool Execution Report 1",
+      "workspace_path": "docs/flowai-delivery/artifacts/029-tool_execution_report-Tool-Execution-Report-1-d8efa20d.md"
+    },
+    {
+      "artifact_id": "82399455-f9b6-4660-ab91-39bbf388db35",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "e4eefd5601cd068345d13d443238ecf2c5830307069b23f33ee930d9ea46874c",
+      "materialized": true,
+      "size_bytes": 2493,
+      "storage_uri": "artifact://82399455-f9b6-4660-ab91-39bbf388db35",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "Tool Execution Report 2",
+      "workspace_path": "docs/flowai-delivery/artifacts/030-tool_execution_report-Tool-Execution-Report-2-82399455.md"
+    },
+    {
+      "artifact_id": "1057d8bf-cc1c-4e2f-8769-2f4f1734529a",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "8ee48b031f44b5da3b9f953b13b7a60f2afce5c0398fc886962feb2974937852",
+      "materialized": true,
+      "size_bytes": 469,
+      "storage_uri": "artifact://1057d8bf-cc1c-4e2f-8769-2f4f1734529a",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "Tool Execution Report 3",
+      "workspace_path": "docs/flowai-delivery/artifacts/031-tool_execution_report-Tool-Execution-Report-3-1057d8bf.md"
+    },
+    {
+      "artifact_id": "3c18d71d-bda7-4f29-87df-2665e7c5bc8d",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "229e897e634b7a44737cc0f07f17135d34c691dd5dfcf70699e958e4676fb25c",
+      "materialized": true,
+      "size_bytes": 902,
+      "storage_uri": "artifact://3c18d71d-bda7-4f29-87df-2665e7c5bc8d",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "Tool Execution Report 4",
+      "workspace_path": "docs/flowai-delivery/artifacts/032-tool_execution_report-Tool-Execution-Report-4-3c18d71d.md"
+    },
+    {
+      "artifact_id": "ece15868-e295-4bbd-a763-4581397e6212",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "1e5d9589c977ad7dbb2eaa288170a4a28407a610b75d5e7149002178717bd921",
+      "materialized": true,
+      "size_bytes": 837,
+      "storage_uri": "artifact://ece15868-e295-4bbd-a763-4581397e6212",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_title": "Implementation Subtask 2: Implement repository and application service layer",
+      "title": "Tool Execution Report 5",
+      "workspace_path": "docs/flowai-delivery/artifacts/033-tool_execution_report-Tool-Execution-Report-5-ece15868.md"
+    },
+    {
+      "artifact_id": "3924785a-24b1-4187-a30b-b139a306871f",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://3924785a-24b1-4187-a30b-b139a306871f",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "d0030e1d-e8c2-4820-acec-104564ed0cbb",
+      "artifact_type": "implementation_plan",
+      "content_hash": "e71243a219374425dd056a619eea0a309420805b9c9ec8d83f1e48ce3d4b9f8c",
+      "materialized": true,
+      "size_bytes": 2372,
+      "storage_uri": "artifact://d0030e1d-e8c2-4820-acec-104564ed0cbb",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "Implementation Plan",
+      "workspace_path": "docs/flowai-delivery/artifacts/035-implementation_plan-Implementation-Plan-d0030e1d.md"
+    },
+    {
+      "artifact_id": "ede963a7-ff99-45cd-8472-a46acda097b5",
+      "artifact_type": "generated_code",
+      "content_hash": "6b7fa009d2e4f26c437ef02a051a84d5cc99dc52a549e0d8072013ccab73fb10",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://ede963a7-ff99-45cd-8472-a46acda097b5",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "app/main.py"
+    },
+    {
+      "artifact_id": "e80829fc-1738-41e3-b42f-c3ce0efdd178",
+      "artifact_type": "generated_code",
+      "content_hash": "48562968f69c76f5badd89ea12d30919b08a7a6006feafbbc9fcdae83773fe71",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://e80829fc-1738-41e3-b42f-c3ce0efdd178",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "app/schemas.py"
+    },
+    {
+      "artifact_id": "2bb67a3f-4941-4b4f-9805-960e1c6b85d2",
+      "artifact_type": "generated_code",
+      "content_hash": "69d6559414dd0e09cd7f309cfe8034f13886526508e90a2c5bb344a00df51871",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://2bb67a3f-4941-4b4f-9805-960e1c6b85d2",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "tests/test_health.py"
+    },
+    {
+      "artifact_id": "5b0c4f49-f259-4ebf-826a-b84cbd436453",
+      "artifact_type": "generated_code",
+      "content_hash": "8851476a6a1d544faa9f16346ce73ffed9fe959d4e2a8bfcb2ce6df5a165365d",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://5b0c4f49-f259-4ebf-826a-b84cbd436453",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "tests/e2e/__init__.py"
+    },
+    {
+      "artifact_id": "86cf1fc3-3465-4ffb-9df3-6bb50c30ab44",
+      "artifact_type": "generated_code",
+      "content_hash": "d7381128b3f99921e5286e22599957813f42be53e64526386a33770da2e9c7dd",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://86cf1fc3-3465-4ffb-9df3-6bb50c30ab44",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "tests/test_main.py"
+    },
+    {
+      "artifact_id": "a18f0020-7b96-43e9-9824-d1b22d33e3bf",
+      "artifact_type": "generated_code",
+      "content_hash": "2347a90f579838b9deb7729a6348f6c92527624cc82b1c8a0526c76237e5321a",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://a18f0020-7b96-43e9-9824-d1b22d33e3bf",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "tests/e2e/test_api.py"
+    },
+    {
+      "artifact_id": "c4cba7ef-27ea-4c6f-a666-db6487618086",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "679ed5f7a83af3e7f97ebd21442cbcd76a3c3384c66ce28cc76120a999a566ef",
+      "materialized": true,
+      "size_bytes": 295,
+      "storage_uri": "artifact://c4cba7ef-27ea-4c6f-a666-db6487618086",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "Tool Execution Report 1",
+      "workspace_path": "docs/flowai-delivery/artifacts/042-tool_execution_report-Tool-Execution-Report-1-c4cba7ef.md"
+    },
+    {
+      "artifact_id": "c80e75e7-2ac6-4f75-8e85-d8c7ab70c007",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "23bc48fad2bd1e30cdfa72998ec595831773673567d892f1cac1c556b98f73fe",
+      "materialized": true,
+      "size_bytes": 2494,
+      "storage_uri": "artifact://c80e75e7-2ac6-4f75-8e85-d8c7ab70c007",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "Tool Execution Report 2",
+      "workspace_path": "docs/flowai-delivery/artifacts/043-tool_execution_report-Tool-Execution-Report-2-c80e75e7.md"
+    },
+    {
+      "artifact_id": "7e4cdd05-cd1b-4c1a-a810-fd029f24995e",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "22ff3a32e8fc1bb52d50aabc5cfdd9d5e42d0fbf544bb4a4eda75b5a1a6912c3",
+      "materialized": true,
+      "size_bytes": 554,
+      "storage_uri": "artifact://7e4cdd05-cd1b-4c1a-a810-fd029f24995e",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "Tool Execution Report 3",
+      "workspace_path": "docs/flowai-delivery/artifacts/044-tool_execution_report-Tool-Execution-Report-3-7e4cdd05.md"
+    },
+    {
+      "artifact_id": "3e3c5831-b0c7-432d-9b5a-75385705a2e1",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "43017d0567b5bdd348f48bcca936ae6cdce64ab750a222e681b4398b25fe76f9",
+      "materialized": true,
+      "size_bytes": 951,
+      "storage_uri": "artifact://3e3c5831-b0c7-432d-9b5a-75385705a2e1",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "Tool Execution Report 4",
+      "workspace_path": "docs/flowai-delivery/artifacts/045-tool_execution_report-Tool-Execution-Report-4-3e3c5831.md"
+    },
+    {
+      "artifact_id": "93236d72-bb7a-4594-a9aa-798e54031002",
+      "artifact_type": "tool_execution_report",
+      "content_hash": "4815210d8da25480a78ebc831295b5d999234b9685133cc363fc959aaf2ec705",
+      "materialized": true,
+      "size_bytes": 837,
+      "storage_uri": "artifact://93236d72-bb7a-4594-a9aa-798e54031002",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together",
+      "title": "Tool Execution Report 5",
+      "workspace_path": "docs/flowai-delivery/artifacts/046-tool_execution_report-Tool-Execution-Report-5-93236d72.md"
+    },
+    {
+      "artifact_id": "4ca17eb5-0738-475c-875f-53b258148f00",
+      "artifact_type": "implementation_deliverable_manifest",
+      "content_hash": "1b4700559e28ad3064928ce4b0291234df0bb4176932e45de29548cf2ad5aa1b",
+      "materialized": true,
+      "size_bytes": 4954,
+      "storage_uri": "artifact://4ca17eb5-0738-475c-875f-53b258148f00",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "Implementation Deliverable Manifest",
+      "workspace_path": "docs/flowai-delivery/artifacts/047-implementation_deliverable_manifest-Implementation-Deliverable-Manifest-4ca17eb5.md"
+    },
+    {
+      "artifact_id": "c772c094-5c58-4807-bfc4-31065ef038d8",
+      "artifact_type": "generated_code",
+      "content_hash": "f1d1e940dcf9e01b97f1587bd4d312cca241b0dd57c519159c4d3ae80e09d9ed",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://c772c094-5c58-4807-bfc4-31065ef038d8",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": ".dockerignore"
+    },
+    {
+      "artifact_id": "53a2c4bf-125d-488b-ba73-f33c3f482931",
+      "artifact_type": "generated_code",
+      "content_hash": "4aa374c14d783ac00f03e59458461c8af8d187cc97d9f56b225f36d504fe49b8",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://53a2c4bf-125d-488b-ba73-f33c3f482931",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "CLAUDE.md"
+    },
+    {
+      "artifact_id": "9d61f80f-6ef4-4ca9-b4db-0fbda787db08",
+      "artifact_type": "generated_code",
+      "content_hash": "4b5ce022788bc5d1c3a3d4e81f1789425aa862d22e9b57201ded19e02cba3cfd",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://9d61f80f-6ef4-4ca9-b4db-0fbda787db08",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "Dockerfile"
+    },
+    {
+      "artifact_id": "07cabe7e-96ee-45cd-adfa-6fa5b577e294",
+      "artifact_type": "generated_code",
+      "content_hash": "4291d87d115c569a35b6ba3fdfb5d7947c330f596140ea21c12329ac94dd5969",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://07cabe7e-96ee-45cd-adfa-6fa5b577e294",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "app/database.py"
+    },
+    {
+      "artifact_id": "4fc82f55-1f0d-4ec4-9d6d-5fef8248af7a",
+      "artifact_type": "generated_code",
+      "content_hash": "6b7fa009d2e4f26c437ef02a051a84d5cc99dc52a549e0d8072013ccab73fb10",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://4fc82f55-1f0d-4ec4-9d6d-5fef8248af7a",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "app/main.py"
+    },
+    {
+      "artifact_id": "145b95a1-a6cb-4a3c-951b-6b0563b6a678",
+      "artifact_type": "generated_code",
+      "content_hash": "a34f45fbbff9b27400c3cc9a5b5ee08df8f45d171bff4404bb63583e7e3bc4e8",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://145b95a1-a6cb-4a3c-951b-6b0563b6a678",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "app/models.py"
+    },
+    {
+      "artifact_id": "629e609c-a45c-4049-8701-4d38b95d6de1",
+      "artifact_type": "generated_code",
+      "content_hash": "fc03fba9e0973496c8e8c6054a7f0a1b4a39792d367723dc15d4be7f2d0e1d8b",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://629e609c-a45c-4049-8701-4d38b95d6de1",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "app/repository.py"
+    },
+    {
+      "artifact_id": "9d42d736-021f-4f40-a608-f3214af08c95",
+      "artifact_type": "generated_code",
+      "content_hash": "48562968f69c76f5badd89ea12d30919b08a7a6006feafbbc9fcdae83773fe71",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://9d42d736-021f-4f40-a608-f3214af08c95",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "app/schemas.py"
+    },
+    {
+      "artifact_id": "1a8c1e66-d936-44d9-a310-ee9d92bae1c4",
+      "artifact_type": "generated_code",
+      "content_hash": "25201e641562168c3c5c773472aea041d57c87fec1317e753a7f250d8f56a3bb",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://1a8c1e66-d936-44d9-a310-ee9d92bae1c4",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "app/service.py"
+    },
+    {
+      "artifact_id": "1af5ec41-1f86-449d-b960-de2734f89238",
+      "artifact_type": "generated_code",
+      "content_hash": "d431366c1acf9494f007557daa587c5224e2ac2bc285db4180e309cf4513fcf6",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://1af5ec41-1f86-449d-b960-de2734f89238",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "conftest.py"
+    },
+    {
+      "artifact_id": "83baf418-6b25-49f8-9cb2-e3b56c1bc2f5",
+      "artifact_type": "generated_code",
+      "content_hash": "ed28014daa46e81c2e629e93652ddb505bece6639e8a470d4893f30eb0880d62",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://83baf418-6b25-49f8-9cb2-e3b56c1bc2f5",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "docs/ARCHITECTURE.md"
+    },
+    {
+      "artifact_id": "9a856a5e-9abc-46c6-9541-c564f6673f93",
+      "artifact_type": "generated_code",
+      "content_hash": "a236f43b738e97ecccd9089bd857b45199c20109e9abd4111e162746e520d67d",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://9a856a5e-9abc-46c6-9541-c564f6673f93",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "docs/REQUIREMENTS.md"
+    },
+    {
+      "artifact_id": "fa5ba7cd-4292-4aa9-b6f1-dc8850f4c6ea",
+      "artifact_type": "generated_code",
+      "content_hash": "32d66d847f40bac2a5925ed6bc1de269fa39697baf1d47088aae8906454829bf",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://fa5ba7cd-4292-4aa9-b6f1-dc8850f4c6ea",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "pytest.ini"
+    },
+    {
+      "artifact_id": "858a3ec3-799f-42a6-9339-e91678c5f1f4",
+      "artifact_type": "generated_code",
+      "content_hash": "a37a930e55e69ebb4690171539fca29a5c1157361471952becef0322db2c0820",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://858a3ec3-799f-42a6-9339-e91678c5f1f4",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "requirements.txt"
+    },
+    {
+      "artifact_id": "999ac4c8-dc0a-446a-9988-c6d94afc9139",
+      "artifact_type": "generated_code",
+      "content_hash": "8851476a6a1d544faa9f16346ce73ffed9fe959d4e2a8bfcb2ce6df5a165365d",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://999ac4c8-dc0a-446a-9988-c6d94afc9139",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "tests/e2e/__init__.py"
+    },
+    {
+      "artifact_id": "db5aae1f-0577-4ae4-9266-bc35f821f3ca",
+      "artifact_type": "generated_code",
+      "content_hash": "2347a90f579838b9deb7729a6348f6c92527624cc82b1c8a0526c76237e5321a",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://db5aae1f-0577-4ae4-9266-bc35f821f3ca",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "tests/e2e/test_api.py"
+    },
+    {
+      "artifact_id": "9130a9d2-8568-4ad0-9321-637951f87ec4",
+      "artifact_type": "generated_code",
+      "content_hash": "76956f0e193d14dc6d3bca51da8ed37a840e12d4961a23f992f4424b00793df6",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://9130a9d2-8568-4ad0-9321-637951f87ec4",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "tests/test_database.py"
+    },
+    {
+      "artifact_id": "daeeaaa3-2888-418a-8a29-ea31a3c54bf4",
+      "artifact_type": "generated_code",
+      "content_hash": "69d6559414dd0e09cd7f309cfe8034f13886526508e90a2c5bb344a00df51871",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://daeeaaa3-2888-418a-8a29-ea31a3c54bf4",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "tests/test_health.py"
+    },
+    {
+      "artifact_id": "7a2b6687-da0f-4282-88f8-77ff97701972",
+      "artifact_type": "generated_code",
+      "content_hash": "d7381128b3f99921e5286e22599957813f42be53e64526386a33770da2e9c7dd",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://7a2b6687-da0f-4282-88f8-77ff97701972",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "tests/test_main.py"
+    },
+    {
+      "artifact_id": "e4f52f27-9974-4419-ba90-385888587e0a",
+      "artifact_type": "generated_code",
+      "content_hash": "cea746ab95962933b39d8b84775a2e325dc971cbac42b5fb3129f8e2710c8a33",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://e4f52f27-9974-4419-ba90-385888587e0a",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "tests/test_models.py"
+    },
+    {
+      "artifact_id": "e9b13544-a7ed-4931-89ec-7c5435323127",
+      "artifact_type": "generated_code",
+      "content_hash": "01342d94dcf74345d11bbf7a299013ab010e7a34f7bc881791c262800bcdebeb",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://e9b13544-a7ed-4931-89ec-7c5435323127",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "tests/test_repository.py"
+    },
+    {
+      "artifact_id": "8d8ba4c5-95d2-46aa-8355-e60e55e25510",
+      "artifact_type": "generated_code",
+      "content_hash": "327549ade1cc9cace853825bf25f0633b9d384946a2f4c98ca29f3cc0056b65f",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://8d8ba4c5-95d2-46aa-8355-e60e55e25510",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_title": "Implementation",
+      "title": "tests/test_service.py"
+    },
+    {
+      "artifact_id": "c9f50ff9-b690-4192-afa6-3496126a2f7d",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://c9f50ff9-b690-4192-afa6-3496126a2f7d",
+      "task_id": "c78769db-1e11-4eae-b6a6-9431e6596917",
+      "task_title": "Peer Review",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "6f4f475f-a6cf-4199-a39d-02936cba46ff",
+      "artifact_type": "peer_review_report",
+      "content_hash": "afb685bfc4a76e12d25966423e0ebf4db15c49dada4cba7f242c8fe3e16ce990",
+      "materialized": true,
+      "size_bytes": 9726,
+      "storage_uri": "artifact://6f4f475f-a6cf-4199-a39d-02936cba46ff",
+      "task_id": "c78769db-1e11-4eae-b6a6-9431e6596917",
+      "task_title": "Peer Review",
+      "title": "Peer Review Report",
+      "workspace_path": "docs/flowai-delivery/artifacts/071-peer_review_report-Peer-Review-Report-6f4f475f.md"
+    },
+    {
+      "artifact_id": "e7c95dad-95ee-40ed-bd49-741ffd0e3156",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://e7c95dad-95ee-40ed-bd49-741ffd0e3156",
+      "task_id": "d9e25e05-18b2-40b0-9357-bcaa4eff9d8f",
+      "task_title": "Structural Validation",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "cffc139d-0cae-4232-b714-97fdd2506ae5",
+      "artifact_type": "validation_report",
+      "content_hash": "8965abfd1fa829ab75b4303483ad353122873d696e585702d6cf013f15be4f40",
+      "materialized": true,
+      "size_bytes": 17966,
+      "storage_uri": "artifact://cffc139d-0cae-4232-b714-97fdd2506ae5",
+      "task_id": "d9e25e05-18b2-40b0-9357-bcaa4eff9d8f",
+      "task_title": "Structural Validation",
+      "title": "structural validation report",
+      "workspace_path": "docs/flowai-delivery/artifacts/073-validation_report-structural-validation-report-cffc139d.md"
+    },
+    {
+      "artifact_id": "a896df7e-c026-4c48-823e-3d0ef45c3896",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://a896df7e-c026-4c48-823e-3d0ef45c3896",
+      "task_id": "6fc51f6f-e2ab-4613-a7b5-a986538012cf",
+      "task_title": "Engineering Quality Validation",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "3a7d0002-02e6-4635-858e-618315b404a5",
+      "artifact_type": "validation_report",
+      "content_hash": "5b790d438985a7f41eb03e206aab29e2670fa13f268498de52f8b108aca5ea84",
+      "materialized": true,
+      "size_bytes": 13391,
+      "storage_uri": "artifact://3a7d0002-02e6-4635-858e-618315b404a5",
+      "task_id": "6fc51f6f-e2ab-4613-a7b5-a986538012cf",
+      "task_title": "Engineering Quality Validation",
+      "title": "engineering_quality validation report",
+      "workspace_path": "docs/flowai-delivery/artifacts/075-validation_report-engineering_quality-validation-report-3a7d0002.md"
+    },
+    {
+      "artifact_id": "4f41a38e-ef48-4082-b16a-ccf7d1472248",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://4f41a38e-ef48-4082-b16a-ccf7d1472248",
+      "task_id": "5c35ec09-2847-44e0-b5b7-410f26922031",
+      "task_title": "Grounded Truth Validation",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "259084ee-27c6-4219-9e17-e07294292278",
+      "artifact_type": "validation_report",
+      "content_hash": "799fd8ac5ea957b624036ccc1a36daf8ddf574d0e4386fab4aeae0b7802e9d0a",
+      "materialized": true,
+      "size_bytes": 8685,
+      "storage_uri": "artifact://259084ee-27c6-4219-9e17-e07294292278",
+      "task_id": "5c35ec09-2847-44e0-b5b7-410f26922031",
+      "task_title": "Grounded Truth Validation",
+      "title": "Grounded truth validation report",
+      "workspace_path": "docs/flowai-delivery/artifacts/077-validation_report-Grounded-truth-validation-report-259084ee.md"
+    },
+    {
+      "artifact_id": "fa0a9f21-eaf7-43be-8860-156da5523174",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "61d74ff3bd77ae1abfdb25911e43d7b03b6457b058c46c0007f08087aea623b7",
+      "materialized": false,
+      "skip_reason": "artifact_type_is_represented_by_workspace_or_runtime_metadata",
+      "storage_uri": "artifact://fa0a9f21-eaf7-43be-8860-156da5523174",
+      "task_id": "34ad4ff1-f85c-495c-81df-1ac3457274d9",
+      "task_title": "Final Delivery Gate",
+      "title": "Sandbox Manifest"
+    },
+    {
+      "artifact_id": "1ae3bec8-f86e-418c-b088-a91ebcaac952",
+      "artifact_type": "validation_report",
+      "content_hash": "c5d1cfe242e70f3a96d447f4caf5feca2b359827e8c0533477edfa184290a542",
+      "materialized": true,
+      "size_bytes": 18163,
+      "storage_uri": "artifact://1ae3bec8-f86e-418c-b088-a91ebcaac952",
+      "task_id": "34ad4ff1-f85c-495c-81df-1ac3457274d9",
+      "task_title": "Final Delivery Gate",
+      "title": "delivery_readiness validation report",
+      "workspace_path": "docs/flowai-delivery/artifacts/079-validation_report-delivery_readiness-validation-report-1ae3bec8.md"
+    }
+  ],
+  "delivery_readiness": {
+    "blocking_task_count": 2,
+    "blocking_tasks": [
+      {
+        "action": "retry_same_agent",
+        "status": "fail",
+        "task_id": "d9e25e05-18b2-40b0-9357-bcaa4eff9d8f",
+        "task_type": "structural_validation",
+        "title": "Structural Validation"
+      },
+      {
+        "action": "retry_same_agent",
+        "status": "fail",
+        "task_id": "6fc51f6f-e2ab-4613-a7b5-a986538012cf",
+        "task_type": "engineering_validation",
+        "title": "Engineering Quality Validation"
+      }
+    ],
+    "failed_task_count": 0,
+    "failed_tasks": [],
+    "human_review_task_count": 1,
+    "human_review_tasks": [
+      {
+        "action": "require_human_review",
+        "status": "fail",
+        "task_id": "34ad4ff1-f85c-495c-81df-1ac3457274d9",
+        "task_type": "delivery_gate",
+        "title": "Final Delivery Gate"
+      }
+    ],
+    "status": "blocked",
+    "validation_task_count": 4
+  },
+  "delivery_workspace_path": "docs/flowai-delivery",
+  "generated_at": "2026-07-10T10:24:42.276276+00:00",
+  "git_commits": [
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-05T19:09:06+10:00",
+      "hash": "d108933d0997007e76054958907dad80d4379f7b",
+      "subject": "feat(full_stack_software_engineer): Peer Review"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-05T19:07:26+10:00",
+      "hash": "aec72fdf17d470e6946fd9b55a0187739d5a18ee",
+      "subject": "feat(full_stack_software_engineer): Implementation Subtask 3: Expose FastAPI endpoints and wire application together"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-05T18:46:08+10:00",
+      "hash": "a694eea01cf00e119d13cbe79fe80cf53b9971c4",
+      "subject": "feat(full_stack_software_engineer): Implementation Subtask 2: Implement repository and application service layer"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-05T18:44:07+10:00",
+      "hash": "f1ff167ed9311d3a10e3f9a616014d2ca4852b1d",
+      "subject": "feat(full_stack_software_engineer): Implementation Subtask 1: Scaffold project structure, dependencies, and database layer"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-05T18:39:42+10:00",
+      "hash": "a8e82727fbaff793ade3ac96e2b2f08272656786",
+      "subject": "feat(solution_architect): Architecture Design"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-05T18:37:48+10:00",
+      "hash": "4ee7c30fcfc410d80375327f26d45f3144398f36",
+      "subject": "feat(product_manager): Product Requirements"
+    },
+    {
+      "author": "FlowAI Agent",
+      "authored_at": "2026-05-05T18:35:31+10:00",
+      "hash": "8d4c9d32ebf7621c9de0d01da220f6882a450839",
+      "subject": "chore: initialise shared run workspace"
+    }
+  ],
+  "goal_id": "cd31bec4-96de-4776-bdf9-56b5238bcde3",
+  "goal_title": "Build a FastAPI URL Shortener Service",
+  "schema_version": 1,
+  "tasks": [
+    {
+      "artifact_ids": [
+        "396e78bf-66d2-42e5-8e4c-03f1647f716d",
+        "df44bc4c-2244-4aa6-adf6-f5b02cb5c41c"
+      ],
+      "parent_task_id": null,
+      "required_role": "product_manager",
+      "status": "completed",
+      "summary": "Product requirements defined for 'Build a FastAPI URL Shortener Service' with 3 feature requirements and 3 QA focus areas.",
+      "task_id": "bb12cc6b-8ff9-44bd-87d8-92a9d1ec8078",
+      "task_type": "product_requirements",
+      "title": "Product Requirements"
+    },
+    {
+      "artifact_ids": [
+        "c34827a8-2146-45c9-8007-8df8c944478e",
+        "50f942d5-60dc-4a6f-9e29-89119fe10231"
+      ],
+      "parent_task_id": null,
+      "required_role": "solution_architect",
+      "status": "completed",
+      "summary": "Architecture defined for 'Build a FastAPI URL Shortener Service' with 3 primary interfaces, 3 operational constraints, and 1 product-requirements handoff inputs.",
+      "task_id": "d6be20f6-3103-4bbb-a6e5-94101391f043",
+      "task_type": "architecture_design",
+      "title": "Architecture Design"
+    },
+    {
+      "artifact_ids": [
+        "62e68901-8b69-409e-a7b4-4493b3734a0f",
+        "f06b7215-7420-44d7-9dfc-ac939e02431c",
+        "4ca17eb5-0738-475c-875f-53b258148f00",
+        "c772c094-5c58-4807-bfc4-31065ef038d8",
+        "53a2c4bf-125d-488b-ba73-f33c3f482931",
+        "9d61f80f-6ef4-4ca9-b4db-0fbda787db08",
+        "07cabe7e-96ee-45cd-adfa-6fa5b577e294",
+        "4fc82f55-1f0d-4ec4-9d6d-5fef8248af7a",
+        "145b95a1-a6cb-4a3c-951b-6b0563b6a678",
+        "629e609c-a45c-4049-8701-4d38b95d6de1",
+        "9d42d736-021f-4f40-a608-f3214af08c95",
+        "1a8c1e66-d936-44d9-a310-ee9d92bae1c4",
+        "1af5ec41-1f86-449d-b960-de2734f89238",
+        "83baf418-6b25-49f8-9cb2-e3b56c1bc2f5",
+        "9a856a5e-9abc-46c6-9541-c564f6673f93",
+        "fa5ba7cd-4292-4aa9-b6f1-dc8850f4c6ea",
+        "858a3ec3-799f-42a6-9339-e91678c5f1f4",
+        "999ac4c8-dc0a-446a-9988-c6d94afc9139",
+        "db5aae1f-0577-4ae4-9266-bc35f821f3ca",
+        "9130a9d2-8568-4ad0-9321-637951f87ec4",
+        "daeeaaa3-2888-418a-8a29-ea31a3c54bf4",
+        "7a2b6687-da0f-4282-88f8-77ff97701972",
+        "e4f52f27-9974-4419-ba90-385888587e0a",
+        "e9b13544-a7ed-4931-89ec-7c5435323127",
+        "8d8ba4c5-95d2-46aa-8355-e60e55e25510"
+      ],
+      "parent_task_id": null,
+      "required_role": "full_stack_software_engineer",
+      "status": "completed",
+      "summary": "Implementation plan prepared for Programming language: python 3.12, Frameworks: fastapi, Database: sqlite with 9 delivery steps and 4 testing layers.",
+      "task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "task_type": "implementation",
+      "title": "Implementation"
+    },
+    {
+      "artifact_ids": [
+        "5440b6c4-ff0f-4913-ac11-259deb30fe31",
+        "da03d7eb-93a2-4ced-9bfd-c2114ec6cdd6",
+        "f09232ed-f53c-48a9-ae36-24813f40a193",
+        "5f4a66e4-354b-4a03-bb3e-df52661468fa",
+        "7253aaa7-5e2e-4c57-bd42-20ae1a66e269",
+        "987ba6b0-58a6-4bd8-828e-bd2f90a6a852",
+        "0a4c4670-0262-4277-8654-af1f1cf144b5",
+        "d2aca5df-6171-4a13-a8eb-cfef16365f66",
+        "9e439b4b-fa5a-4db0-8b04-f2bd26bdccbc",
+        "19bf82d6-1d4c-4e72-ab76-e011d11695c7",
+        "fbcf0a67-d0f8-47b7-9a5f-a312579caa51",
+        "863fa39a-1b7c-426e-8dba-810f9c146d24",
+        "4ab8a481-5bb2-4efb-8840-f05f8bec55ce",
+        "5209aa79-7555-44cf-812b-01867f67a009",
+        "4d8f8107-9737-4cfd-bad5-de7fccbd9fc4",
+        "1d6c4d52-43af-4a68-a6f1-d2562475c6df"
+      ],
+      "parent_task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "required_role": "full_stack_software_engineer",
+      "status": "completed",
+      "summary": "Implementation subtask plan prepared: Scaffold project structure, dependencies, and database layer.",
+      "task_id": "f33e9555-e999-47b4-b9f5-1bc691ec90ee",
+      "task_type": "implementation",
+      "title": "Implementation Subtask 1: Scaffold project structure, dependencies, and database layer"
+    },
+    {
+      "artifact_ids": [
+        "c26d4f32-6153-41ac-99b9-be5498f3ab48",
+        "15ae442b-a151-4fad-b6e3-f9c563c27e85",
+        "5a544302-759a-4948-ba0d-52ced5e90498",
+        "2820339b-a3e6-4d3f-82d6-c3eeb9adbdb9",
+        "b90f740f-5b87-4da2-8833-46789be376f8",
+        "4888246b-ac57-4933-9d0e-c5bbedf6b099",
+        "d8efa20d-8103-4f0e-9027-e71452d86dcf",
+        "82399455-f9b6-4660-ab91-39bbf388db35",
+        "1057d8bf-cc1c-4e2f-8769-2f4f1734529a",
+        "3c18d71d-bda7-4f29-87df-2665e7c5bc8d",
+        "ece15868-e295-4bbd-a763-4581397e6212"
+      ],
+      "parent_task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "required_role": "full_stack_software_engineer",
+      "status": "completed",
+      "summary": "Implementation subtask plan prepared: Implement repository and application service layer.",
+      "task_id": "5a4b3140-0170-46f3-bf3f-3830ba5efaf9",
+      "task_type": "implementation",
+      "title": "Implementation Subtask 2: Implement repository and application service layer"
+    },
+    {
+      "artifact_ids": [
+        "3924785a-24b1-4187-a30b-b139a306871f",
+        "d0030e1d-e8c2-4820-acec-104564ed0cbb",
+        "ede963a7-ff99-45cd-8472-a46acda097b5",
+        "e80829fc-1738-41e3-b42f-c3ce0efdd178",
+        "2bb67a3f-4941-4b4f-9805-960e1c6b85d2",
+        "5b0c4f49-f259-4ebf-826a-b84cbd436453",
+        "86cf1fc3-3465-4ffb-9df3-6bb50c30ab44",
+        "a18f0020-7b96-43e9-9824-d1b22d33e3bf",
+        "c4cba7ef-27ea-4c6f-a666-db6487618086",
+        "c80e75e7-2ac6-4f75-8e85-d8c7ab70c007",
+        "7e4cdd05-cd1b-4c1a-a810-fd029f24995e",
+        "3e3c5831-b0c7-432d-9b5a-75385705a2e1",
+        "93236d72-bb7a-4594-a9aa-798e54031002"
+      ],
+      "parent_task_id": "8cb2c00a-1cac-4044-848d-17d58977346e",
+      "required_role": "full_stack_software_engineer",
+      "status": "completed",
+      "summary": "Implementation subtask plan prepared: Expose FastAPI endpoints and wire application together.",
+      "task_id": "ea5c3710-1c16-4ac4-93b0-6cc10a769991",
+      "task_type": "implementation",
+      "title": "Implementation Subtask 3: Expose FastAPI endpoints and wire application together"
+    },
+    {
+      "artifact_ids": [
+        "c9f50ff9-b690-4192-afa6-3496126a2f7d",
+        "6f4f475f-a6cf-4199-a39d-02936cba46ff"
+      ],
+      "parent_task_id": null,
+      "required_role": "full_stack_software_engineer",
+      "status": "completed",
+      "summary": "Peer review completed with status approved for 'Build a FastAPI URL Shortener Service'.",
+      "task_id": "c78769db-1e11-4eae-b6a6-9431e6596917",
+      "task_type": "peer_review",
+      "title": "Peer Review"
+    },
+    {
+      "artifact_ids": [
+        "e7c95dad-95ee-40ed-bd49-741ffd0e3156",
+        "cffc139d-0cae-4232-b714-97fdd2506ae5"
+      ],
+      "parent_task_id": null,
+      "required_role": "sdet",
+      "status": "completed",
+      "summary": "structural validation completed with action pass.",
+      "task_id": "d9e25e05-18b2-40b0-9357-bcaa4eff9d8f",
+      "task_type": "structural_validation",
+      "title": "Structural Validation",
+      "validation_decision": {
+        "action": "retry_same_agent",
+        "completeness_score": 100.0,
+        "grounded": true,
+        "issues": [],
+        "policy_compliant": true,
+        "quality_score": 100.0,
+        "recommendations": [],
+        "schema_valid": true,
+        "status": "fail",
+        "validation_scope": "structural"
+      }
+    },
+    {
+      "artifact_ids": [
+        "a896df7e-c026-4c48-823e-3d0ef45c3896",
+        "3a7d0002-02e6-4635-858e-618315b404a5"
+      ],
+      "parent_task_id": null,
+      "required_role": "sdet",
+      "status": "completed",
+      "summary": "engineering_quality validation completed with action pass.",
+      "task_id": "6fc51f6f-e2ab-4613-a7b5-a986538012cf",
+      "task_type": "engineering_validation",
+      "title": "Engineering Quality Validation",
+      "validation_decision": {
+        "action": "retry_same_agent",
+        "completeness_score": 100.0,
+        "grounded": true,
+        "issues": [],
+        "policy_compliant": true,
+        "quality_score": 100.0,
+        "recommendations": [],
+        "schema_valid": true,
+        "status": "fail",
+        "validation_scope": "engineering_quality"
+      }
+    },
+    {
+      "artifact_ids": [
+        "4f41a38e-ef48-4082-b16a-ccf7d1472248",
+        "259084ee-27c6-4219-9e17-e07294292278"
+      ],
+      "parent_task_id": null,
+      "required_role": "groundedness_validator",
+      "status": "completed",
+      "summary": "Grounded truth validation completed with action pass.",
+      "task_id": "5c35ec09-2847-44e0-b5b7-410f26922031",
+      "task_type": "grounded_validation",
+      "title": "Grounded Truth Validation",
+      "validation_decision": {
+        "action": "pass",
+        "completeness_score": 75.0,
+        "grounded": true,
+        "issues": [],
+        "policy_compliant": true,
+        "quality_score": 75.0,
+        "recommendations": [],
+        "schema_valid": true,
+        "status": "pass",
+        "validation_scope": "grounded_truth"
+      }
+    },
+    {
+      "artifact_ids": [
+        "fa0a9f21-eaf7-43be-8860-156da5523174",
+        "1ae3bec8-f86e-418c-b088-a91ebcaac952"
+      ],
+      "parent_task_id": null,
+      "required_role": "sdet",
+      "status": "completed",
+      "summary": "delivery_readiness validation completed with action require_human_review.",
+      "task_id": "34ad4ff1-f85c-495c-81df-1ac3457274d9",
+      "task_type": "delivery_gate",
+      "title": "Final Delivery Gate",
+      "validation_decision": {
+        "action": "require_human_review",
+        "completeness_score": 83.33,
+        "grounded": true,
+        "issues": [
+          "Prior validation stages still contain blocking outcomes."
+        ],
+        "policy_compliant": true,
+        "quality_score": 83.33,
+        "recommendations": [
+          "Resolve blocking validation results before the final delivery gate."
+        ],
+        "schema_valid": true,
+        "status": "fail",
+        "validation_scope": "delivery_readiness"
+      }
+    }
+  ],
+  "tenant_id": "1574a745-bfb5-4cbd-9ba7-647f54b7e888",
+  "workflow_run_id": "2ad2ccee-1eb8-48b0-a906-c28f695d0740"
+}
