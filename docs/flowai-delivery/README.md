@@ -1,0 +1,111 @@
+# FlowAI Final Delivery: Build a FastAPI URL Shortener Service
+
+- Workflow run: `2ad2ccee-1eb8-48b0-a906-c28f695d0740`
+- Generated at: `2026-07-10T10:24:42.276276+00:00`
+- Materialized artifact files: `27`
+- Delivery readiness: `blocked`
+- Validation tasks: `4`
+- Blocking validation tasks: `2`
+- Human review validation tasks: `1`
+
+## Tasks
+- Product Requirements (`product_requirements`): `completed`
+- Architecture Design (`architecture_design`): `completed`
+- Implementation (`implementation`): `completed`
+- Implementation Subtask 1: Scaffold project structure, dependencies, and database layer (`implementation`): `completed`
+- Implementation Subtask 2: Implement repository and application service layer (`implementation`): `completed`
+- Implementation Subtask 3: Expose FastAPI endpoints and wire application together (`implementation`): `completed`
+- Peer Review (`peer_review`): `completed`
+- Structural Validation (`structural_validation`): `completed` — validation `fail`/`retry_same_agent`
+- Engineering Quality Validation (`engineering_validation`): `completed` — validation `fail`/`retry_same_agent`
+- Grounded Truth Validation (`grounded_validation`): `completed` — validation `pass`/`pass`
+- Final Delivery Gate (`delivery_gate`): `completed` — validation `fail`/`require_human_review`
+
+## Validation Decisions
+- Structural Validation (`structural_validation`): status `fail`, action `retry_same_agent`
+- Engineering Quality Validation (`engineering_validation`): status `fail`, action `retry_same_agent`
+- Grounded Truth Validation (`grounded_validation`): status `pass`, action `pass`
+- Final Delivery Gate (`delivery_gate`): status `fail`, action `require_human_review`
+
+## Artifact Manifest
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- product_requirements_document: Product Requirements -> `docs/flowai-delivery/artifacts/002-product_requirements_document-Product-Requirements-df44bc4c.md`
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- architecture_document: Architecture Design -> `docs/flowai-delivery/artifacts/004-architecture_document-Architecture-Design-50f942d5.md`
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- implementation_plan: Implementation Plan -> `docs/flowai-delivery/artifacts/006-implementation_plan-Implementation-Plan-f06b7215.md`
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- implementation_plan: Implementation Plan -> `docs/flowai-delivery/artifacts/008-implementation_plan-Implementation-Plan-da03d7eb.md`
+- generated_code: .dockerignore (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: Dockerfile (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: conftest.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: pytest.ini (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: requirements.txt (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/database.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/models.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_database.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_models.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- tool_execution_report: Tool Execution Report 1 -> `docs/flowai-delivery/artifacts/018-tool_execution_report-Tool-Execution-Report-1-863fa39a.md`
+- tool_execution_report: Tool Execution Report 3 -> `docs/flowai-delivery/artifacts/019-tool_execution_report-Tool-Execution-Report-3-4ab8a481.md`
+- tool_execution_report: Tool Execution Report 2 -> `docs/flowai-delivery/artifacts/020-tool_execution_report-Tool-Execution-Report-2-5209aa79.md`
+- tool_execution_report: Tool Execution Report 4 -> `docs/flowai-delivery/artifacts/021-tool_execution_report-Tool-Execution-Report-4-4d8f8107.md`
+- tool_execution_report: Tool Execution Report 5 -> `docs/flowai-delivery/artifacts/022-tool_execution_report-Tool-Execution-Report-5-1d6c4d52.md`
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- implementation_plan: Implementation Plan -> `docs/flowai-delivery/artifacts/024-implementation_plan-Implementation-Plan-15ae442b.md`
+- generated_code: app/repository.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/service.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_repository.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_service.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- tool_execution_report: Tool Execution Report 1 -> `docs/flowai-delivery/artifacts/029-tool_execution_report-Tool-Execution-Report-1-d8efa20d.md`
+- tool_execution_report: Tool Execution Report 2 -> `docs/flowai-delivery/artifacts/030-tool_execution_report-Tool-Execution-Report-2-82399455.md`
+- tool_execution_report: Tool Execution Report 3 -> `docs/flowai-delivery/artifacts/031-tool_execution_report-Tool-Execution-Report-3-1057d8bf.md`
+- tool_execution_report: Tool Execution Report 4 -> `docs/flowai-delivery/artifacts/032-tool_execution_report-Tool-Execution-Report-4-3c18d71d.md`
+- tool_execution_report: Tool Execution Report 5 -> `docs/flowai-delivery/artifacts/033-tool_execution_report-Tool-Execution-Report-5-ece15868.md`
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- implementation_plan: Implementation Plan -> `docs/flowai-delivery/artifacts/035-implementation_plan-Implementation-Plan-d0030e1d.md`
+- generated_code: app/main.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/schemas.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_health.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/e2e/__init__.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_main.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/e2e/test_api.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- tool_execution_report: Tool Execution Report 1 -> `docs/flowai-delivery/artifacts/042-tool_execution_report-Tool-Execution-Report-1-c4cba7ef.md`
+- tool_execution_report: Tool Execution Report 2 -> `docs/flowai-delivery/artifacts/043-tool_execution_report-Tool-Execution-Report-2-c80e75e7.md`
+- tool_execution_report: Tool Execution Report 3 -> `docs/flowai-delivery/artifacts/044-tool_execution_report-Tool-Execution-Report-3-7e4cdd05.md`
+- tool_execution_report: Tool Execution Report 4 -> `docs/flowai-delivery/artifacts/045-tool_execution_report-Tool-Execution-Report-4-3e3c5831.md`
+- tool_execution_report: Tool Execution Report 5 -> `docs/flowai-delivery/artifacts/046-tool_execution_report-Tool-Execution-Report-5-93236d72.md`
+- implementation_deliverable_manifest: Implementation Deliverable Manifest -> `docs/flowai-delivery/artifacts/047-implementation_deliverable_manifest-Implementation-Deliverable-Manifest-4ca17eb5.md`
+- generated_code: .dockerignore (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: CLAUDE.md (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: Dockerfile (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/database.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/main.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/models.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/repository.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/schemas.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: app/service.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: conftest.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: docs/ARCHITECTURE.md (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: docs/REQUIREMENTS.md (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: pytest.ini (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: requirements.txt (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/e2e/__init__.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/e2e/test_api.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_database.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_health.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_main.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_models.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_repository.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- generated_code: tests/test_service.py (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- peer_review_report: Peer Review Report -> `docs/flowai-delivery/artifacts/071-peer_review_report-Peer-Review-Report-6f4f475f.md`
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- validation_report: structural validation report -> `docs/flowai-delivery/artifacts/073-validation_report-structural-validation-report-cffc139d.md`
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- validation_report: engineering_quality validation report -> `docs/flowai-delivery/artifacts/075-validation_report-engineering_quality-validation-report-3a7d0002.md`
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- validation_report: Grounded truth validation report -> `docs/flowai-delivery/artifacts/077-validation_report-Grounded-truth-validation-report-259084ee.md`
+- sandbox_manifest: Sandbox Manifest (not materialized: artifact_type_is_represented_by_workspace_or_runtime_metadata)
+- validation_report: delivery_readiness validation report -> `docs/flowai-delivery/artifacts/079-validation_report-delivery_readiness-validation-report-1ae3bec8.md`
+
+The complete machine-readable manifest is stored in `manifest.json`.
