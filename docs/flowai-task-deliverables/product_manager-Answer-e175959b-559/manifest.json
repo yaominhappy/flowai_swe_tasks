@@ -1,0 +1,27 @@
+{
+  "agent_id": "a6d4710a-d961-4928-b075-2ce94fb594b1",
+  "artifacts": [
+    {
+      "artifact_id": "b0a63184-a912-443f-b50d-f0df703fa617",
+      "artifact_type": "sandbox_manifest",
+      "content_hash": "a1fce3637c6cb64348775e3d3f92169fb09f8f00caf7f6e833bc6c6718d249f2",
+      "materialized": false,
+      "media_type": "application/json",
+      "skip_reason": "artifact_type_is_tracked_elsewhere",
+      "title": "Sandbox Manifest"
+    }
+  ],
+  "materialized_at": "2026-08-16T14:13:42.952468+00:00",
+  "output_payload": {
+    "materialized": true,
+    "size_bytes": 36229,
+    "workspace_path": "docs/flowai-task-deliverables/product_manager-Answer-e175959b-559/task-output.json"
+  },
+  "parent_task_id": null,
+  "role": "product_manager",
+  "schema_version": 2,
+  "subtask_sequence": null,
+  "summary": "Good evening! How can I help?",
+  "task_id": "e175959b-5595-4ea3-a91b-8f1a5d07ee96",
+  "task_title": "Answer"
+}
